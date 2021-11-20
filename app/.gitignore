@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#files
+COVID-19_Case_Surveillance_Public_Use_Data_with_Geography.csv
+
 # dependencies
 /node_modules
 /.pnp
