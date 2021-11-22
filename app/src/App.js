@@ -4,6 +4,7 @@ import { Divider, Header } from 'semantic-ui-react';
 import './style/style.css'
 
 class App extends React.Component {
+  
   render() {
     return (
       <div>
@@ -23,6 +24,9 @@ class App extends React.Component {
           layout={{ width: 320, height: 240, title: 'A Fancy Plot' }}
         />
         <Divider/>
+        <div>
+          <Header as="h1" textAlign="center" id="headerTitle">Your Risk for Covid-19</Header>
+        </div>
         <div id="footer">
           <p>App created by Nadine Alcantara, Aaron Kam, and Irene Ma</p>
           <p>Visualized using <u><a href="https://plotly.com/javascript/react/">Plotly.js</a></u></p>
