@@ -1,5 +1,4 @@
 import React from 'react';
-import Plot from 'react-plotly.js';
 import { Divider, Header } from 'semantic-ui-react';
 import './style/style.css';
 import RaceAndEthnicity from './RaceAndEthnicity';
