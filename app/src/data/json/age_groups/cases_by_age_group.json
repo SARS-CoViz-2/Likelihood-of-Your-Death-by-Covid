@@ -1,0 +1,68 @@
+[
+  {
+    "Age Group": "0-4 Years",
+    "Percent of cases": 2.6,
+    "Count of cases": 1003564,
+    "Percent of US population": 6
+  },
+  {
+    "Age Group": "5-11 Years",
+    "Percent of cases": 5.7,
+    "Count of cases": 2193085,
+    "Percent of US population": 8.7
+  },
+  {
+    "Age Group": "12-15 Years",
+    "Percent of cases": 4.4,
+    "Count of cases": 1691921,
+    "Percent of US population": 5.1
+  },
+  {
+    "Age Group": "16-17 Years",
+    "Percent of cases": 2.8,
+    "Count of cases": 1066461,
+    "Percent of US population": 2.5
+  },
+  {
+    "Age Group": "18-29 Years",
+    "Percent of cases": 21.6,
+    "Count of cases": 8387650,
+    "Percent of US population": 16.4
+  },
+  {
+    "Age Group": "30-39 Years",
+    "Percent of cases": 16.6,
+    "Count of cases": 6426106,
+    "Percent of US population": 13.5
+  },
+  {
+    "Age Group": "40-49 Years",
+    "Percent of cases": 14.5,
+    "Count of cases": 5611161,
+    "Percent of US population": 12.3
+  },
+  {
+    "Age Group": "50-64 Years",
+    "Percent of cases": 19.2,
+    "Count of cases": 7432513,
+    "Percent of US population": 19.2
+  },
+  {
+    "Age Group": "65-74 Years",
+    "Percent of cases": 7.2,
+    "Count of cases": 2776282,
+    "Percent of US population": 9.6
+  },
+  {
+    "Age Group": "75-84 Years",
+    "Percent of cases": 3.6,
+    "Count of cases": 1405566,
+    "Percent of US population": 4.9
+  },
+  {
+    "Age Group": "85+ Years",
+    "Percent of cases": 1.9,
+    "Count of cases": 753755,
+    "Percent of US population": 2
+  }
+]

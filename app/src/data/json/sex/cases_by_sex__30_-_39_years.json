@@ -1,0 +1,17 @@
+[
+  {
+    "Sex": "Female",
+    "Percent of cases": 52.7,
+    "Percent of US population": 49.65
+  },
+  {
+    "Sex": "Male",
+    "Percent of cases": 47.3,
+    "Percent of US population": 50.35
+  },
+  {
+    "Sex": "Other",
+    "Percent of cases": "<0.1",
+    "Percent of US population": "N/A"
+  }
+]
