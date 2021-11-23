@@ -52,27 +52,75 @@ let updatemenus = [
             },
             {
                 args: [{ 'visible': [false, true, false, false, false, false, false, false, false, false, false, false] },
-                { 'title': "Percentage of Cases by Race/Ethnicity: 5 - 11 years old" }],
+                { 'title': "Percentage of Cases by Race/Ethnicity: 5 - 11 Years Old" }],
                 label: "0 - 4 Years Old",
                 method: 'update'
             },
             {
                 args: [{ 'visible': [false, false, true, false, false, false, false, false, false, false, false, false] },
-                { 'title': "Percentage of Cases by Race/Ethnicity: 5 - 11 years old" }],
+                { 'title': "Percentage of Cases by Race/Ethnicity: 5 - 11 Years Old" }],
                 label: "5 - 11 Years Old",
                 method: 'update'
             },
-             {
+            {
                 args: [{ 'visible': [false, false, false, true, false, false, false, false, false, false, false, false] },
-                { 'title': "Percentage of Cases by Race/Ethnicity: 12 - 15 years old" }],
+                { 'title': "Percentage of Cases by Race/Ethnicity: 12 - 15 Years Old" }],
                 label: "12 - 15 Years Old",
                 method: 'update'
             },
+            {
+                args: [{ 'visible': [false, false, false, false, true, false, false, false, false, false, false, false] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 16 - 17 Years Old" }],
+                label: "16 - 17 Years Old",
+                method: 'update'
+            },
+            {
+                args: [{ 'visible': [false, false, false, false, false, true, false, false, false, false, false, false] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 18 - 29 Years Old" }],
+                label: "18 - 29 Years Old",
+                method: 'update'
+            },
+            {
+                args: [{ 'visible': [false, false, false, false, false, false, true, false, false, false, false, false] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 30 - 39 Years Old" }],
+                label: "30 - 39 Years Old",
+                method: 'update'
+            },                 
+            {
+                args: [{ 'visible': [false, false, false, false, false, false, false, true, false, false, false, false] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 40 - 49 Years Old" }],
+                label: "40 - 49 Years Old",
+                method: 'update'
+            },      
+            {
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, true, false, false, false] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 50 - 64 Years Old" }],
+                label: "50 - 64 Years Old",
+                method: 'update'
+            },                  
+            {
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, true, false, false] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 65 - 74 Years Old" }],
+                label: "65 - 74 Years Old",
+                method: 'update'
+            },
+            {
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, false, true, false] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 75 - 84 Years Old" }],
+                label: "75 - 84 Years Old",
+                method: 'update'
+            },
+            {
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, false, false, true] },
+                { 'title': "Percentage of Cases by Race/Ethnicity: 85+ Years Old" }],
+                label: "85+ Years Old",
+                method: 'update'
+            },            
         ],
-        direction: 'right',
+        direction: 'down',
         pad: { 'r': 10, 't': 10 },
         showactive: true,
-        x: 0.1,
+        x: 1.17,
         xanchor: 'center',
         y: 1.17,
         yanchor: 'top',
