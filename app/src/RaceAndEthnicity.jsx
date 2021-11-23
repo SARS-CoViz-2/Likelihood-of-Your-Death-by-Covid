@@ -32,15 +32,21 @@ const allCases = [graph0, graph5, graph12, graph16, graph18, graph30, graph40, g
 
 const allDeaths = [deathGraph0, deathGraph5, deathGraph12, deathGraph16, deathGraph18, deathGraph30, deathGraph40, deathGraph50, deathGraph65, deathGraph75, deathGraph85];
 
+const headerNames = ["Hispanic/Latino", "American Indian /<br>Alaska Native<br>Non-Hispanic", "Asian<br>Non-Hispanic", "Black<br>Non-Hispanic", "Native Hawaiian /<br>Other Pacific Islander<br>Non-Hispanic", "White<br>Non-Hispanic", "Multiple/<br>Other Non-Hispanic"];
+
 function unpack(rows, key) {
     return rows.map((row) => { return row[key]; });
 }
 
 let trace1 = {
     type: 'bar',
-    name: 'Cases',
-    x: unpack(graph, "Race/Ethnicity"),
+    name: 'Percentage of Cases',
+    x: headerNames,
     y: unpack(graph, "Percent of cases"),
+    text: unpack(graph, "Percent of cases").map(String),
+    marker: {
+        color: 'rgba(222,45,38,0.8)'
+    }
 };
 
 let data = [trace1];
@@ -48,9 +54,13 @@ let data = [trace1];
 for (let graph of allCases) {
     let temp = {
         type: 'bar',
-        name: 'Cases',
-        x: unpack(graph, "Race/Ethnicity"),
+        name: 'Percentage of Cases',
+        x: headerNames,
         y: unpack(graph, "Percent of cases"),
+        text: unpack(graph, "Percent of cases").map(String),
+        marker: {
+            color: 'rgba(222,45,38,0.8)'
+        },
         visible: "legendonly"
     }
     data.push(temp);
@@ -58,9 +68,13 @@ for (let graph of allCases) {
 
 let trace2 = {
     type: 'bar',
-    name: 'Deaths',
-    x: unpack(deathGraph, "Race/Ethnicity"),
-    y: unpack(deathGraph, "Percent of deaths")
+    name: 'Percentage of Deaths',
+    x: headerNames,
+    y: unpack(deathGraph, "Percent of deaths"),
+    text: unpack(deathGraph, "Percent of deaths").map(String),
+    marker: {
+        color: 'rgba(0,0,0,0.8)'
+    }
 }
 
 data.push(trace2);
@@ -68,15 +82,47 @@ data.push(trace2);
 for (let graph of allDeaths) {
     let temp = {
         type: 'bar',
-        name: 'Deaths',
-        x: unpack(graph, "Race/Ethnicity"),
+        name: 'Percentage of Deaths',
+        x: headerNames,
         y: unpack(graph, "Percentage of deaths"),
+        text: unpack(graph, "Percentage of deaths").map(String),
+        marker: {
+            color: 'rgba(0,0,0,0.8)'
+        },
         visible: "legendonly"
     }
     data.push(temp);
 }
 
-console.log(data);
+let trace3 = {
+    type: 'bar',
+    name: 'Percentage of the U.S. Population',
+    x: headerNames,
+    y: unpack(graph, "Percent of US population"),
+    text: unpack(graph, "Percent of US population").map(String),
+    marker: {
+        color: 'rgb(204,204,204)',
+        opacity: 0.7
+    }
+};
+
+data.push(trace3);
+
+for (let graph of allCases) {
+    let temp = {
+        type: 'bar',
+        name: 'Percentage of the U.S. Population',
+        x: headerNames,
+        y: unpack(graph, "Percent of US population"),
+        text: unpack(graph, "Percent of US population").map(String),
+        marker: {
+            color: 'rgb(204,204,204)',
+            opacity: 0.7
+        },
+        visible: "legendonly"
+    }
+    data.push(temp);
+}
 
 let updatemenus = [
     {
@@ -84,73 +130,73 @@ let updatemenus = [
         type: 'dropdown',
         buttons: [
             {
-                args: [{ 'visible': [true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false] },
+                args: [{ 'visible': [true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>All Age Groups" }],
                 label: "All Age Groups",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false,] },
+                args: [{ 'visible': [false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>5 - 11 Years Old" }],
                 label: "0 - 4 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false] },
+                args: [{ 'visible': [false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>5 - 11 Years Old" }],
                 label: "5 - 11 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false] },
+                args: [{ 'visible': [false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>12 - 15 Years Old" }],
                 label: "12 - 15 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false] },
+                args: [{ 'visible': [false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>16 - 17 Years Old" }],
                 label: "16 - 17 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false] },
+                args: [{ 'visible': [false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>18 - 29 Years Old" }],
                 label: "18 - 29 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false] },
+                args: [{ 'visible': [false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>30 - 39 Years Old" }],
                 label: "30 - 39 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false] },
+                args: [{ 'visible': [false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>40 - 49 Years Old" }],
                 label: "40 - 49 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false] },
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>50 - 64 Years Old" }],
                 label: "50 - 64 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false] },
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>65 - 74 Years Old" }],
                 label: "65 - 74 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false] },
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>75 - 84 Years Old" }],
                 label: "75 - 84 Years Old",
                 method: 'update'
             },
             {
-                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true] },
+                args: [{ 'visible': [false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>85+ Years Old" }],
                 label: "85+ Years Old",
                 method: 'update'
@@ -168,13 +214,18 @@ let updatemenus = [
 
 let layout = {
     barmode: 'group',
+    bargap: 2,
+    bargroupgap: 0.1,
     title: "Percentage of Cases and Deaths by Race/Ethnicity: <br>All Age Groups",
+    xaxis: {
+        tickangle: 0
+    },
     yaxis: {
         title: "(%)",
     },
     showlegend: true,
     height: 450,
-    width: 800,
+    width: 1400,
     updatemenus: updatemenus
 };
 
