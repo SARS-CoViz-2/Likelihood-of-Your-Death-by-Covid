@@ -1,0 +1,37 @@
+[
+  {
+    "Race/Ethnicity": "Hispanic/Latino",
+    "Percent of cases": 14.8,
+    "Percent of US population": 8.96
+  },
+  {
+    "Race/Ethnicity": "American Indian / Alaska Native Non-Hispanic",
+    "Percent of cases": 0.9,
+    "Percent of US population": 0.61
+  },
+  {
+    "Race/Ethnicity": "Asian Non-Hispanic",
+    "Percent of cases": 2.6,
+    "Percent of US population": 4.74
+  },
+  {
+    "Race/Ethnicity": "Black Non-Hispanic",
+    "Percent of cases": 10.1,
+    "Percent of US population": 9.85
+  },
+  {
+    "Race/Ethnicity": "Native Hawaiian / Other Pacific Islander Non-Hispanic",
+    "Percent of cases": 0.2,
+    "Percent of US population": 0.12
+  },
+  {
+    "Race/Ethnicity": "White Non-Hispanic",
+    "Percent of cases": 66.7,
+    "Percent of US population": 74.86
+  },
+  {
+    "Race/Ethnicity": "Multiple/Other Non-Hispanic",
+    "Percent of cases": 4.7,
+    "Percent of US population": 0.85
+  }
+]
