@@ -1,0 +1,17 @@
+[
+  {
+    "Sex": "Female",
+    "Percentage of deaths": 45.9,
+    "Percent of US population": 48.87
+  },
+  {
+    "Sex": "Male",
+    "Percentage of deaths": 54.1,
+    "Percent of US population": 51.13
+  },
+  {
+    "Sex": "Other",
+    "Percentage of deaths": "<0.1",
+    "Percent of US population": "N/A"
+  }
+]
