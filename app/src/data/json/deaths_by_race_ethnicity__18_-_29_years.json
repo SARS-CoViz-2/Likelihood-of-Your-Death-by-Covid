@@ -1,0 +1,37 @@
+[
+  {
+    "Race/Ethnicity": "Hispanic/Latino",
+    "Percentage of deaths": 34.1,
+    "Percent of US population": 21.96
+  },
+  {
+    "Race/Ethnicity": "American Indian / Alaska Native Non-Hispanic",
+    "Percentage of deaths": 2.9,
+    "Percent of US population": 0.85
+  },
+  {
+    "Race/Ethnicity": "Asian Non-Hispanic",
+    "Percentage of deaths": 2.7,
+    "Percent of US population": 6.11
+  },
+  {
+    "Race/Ethnicity": "Black Non-Hispanic",
+    "Percentage of deaths": 22.2,
+    "Percent of US population": 14.44
+  },
+  {
+    "Race/Ethnicity": "Native Hawaiian / Other Pacific Islander Non-Hispanic",
+    "Percentage of deaths": 0.8,
+    "Percent of US population": 0.21
+  },
+  {
+    "Race/Ethnicity": "White Non-Hispanic",
+    "Percentage of deaths": 33.5,
+    "Percent of US population": 53.54
+  },
+  {
+    "Race/Ethnicity": "Multiple/Other Non-Hispanic",
+    "Percentage of deaths": 3.9,
+    "Percent of US population": 2.89
+  }
+]
