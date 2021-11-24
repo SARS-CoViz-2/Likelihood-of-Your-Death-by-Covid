@@ -1,0 +1,20 @@
+[
+  {
+    "Sex": "Female",
+    "Percentage of deaths": 45.7,
+    "Count of deaths": "296420 - 296429",
+    "Percent of US population": 50.75
+  },
+  {
+    "Sex": "Male",
+    "Percentage of deaths": 54.3,
+    "Count of deaths": "352550 - 352559",
+    "Percent of US population": 49.25
+  },
+  {
+    "Sex": "Other",
+    "Percentage of deaths": "<0.1",
+    "Count of deaths": "0 - 9",
+    "Percent of US population": "N/A"
+  }
+]

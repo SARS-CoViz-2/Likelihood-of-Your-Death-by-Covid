@@ -1,0 +1,68 @@
+[
+  {
+    "Age Group": "0-4 Years",
+    "Percentage of deaths": "<0.1",
+    "Count of deaths": 294,
+    "Percent of US population": 6
+  },
+  {
+    "Age Group": "5-11 Years",
+    "Percentage of deaths": "<0.1",
+    "Count of deaths": 199,
+    "Percent of US population": 8.7
+  },
+  {
+    "Age Group": "12-15 Years",
+    "Percentage of deaths": "<0.1",
+    "Count of deaths": 229,
+    "Percent of US population": 5.1
+  },
+  {
+    "Age Group": "16-17 Years",
+    "Percentage of deaths": "<0.1",
+    "Count of deaths": 217,
+    "Percent of US population": 2.5
+  },
+  {
+    "Age Group": "18-29 Years",
+    "Percentage of deaths": 0.7,
+    "Count of deaths": 4679,
+    "Percent of US population": 16.4
+  },
+  {
+    "Age Group": "30-39 Years",
+    "Percentage of deaths": 1.7,
+    "Count of deaths": 10812,
+    "Percent of US population": 13.5
+  },
+  {
+    "Age Group": "40-49 Years",
+    "Percentage of deaths": 3.8,
+    "Count of deaths": 24790,
+    "Percent of US population": 12.3
+  },
+  {
+    "Age Group": "50-64 Years",
+    "Percentage of deaths": 17,
+    "Count of deaths": 110922,
+    "Percent of US population": 19.2
+  },
+  {
+    "Age Group": "65-74 Years",
+    "Percentage of deaths": 21.9,
+    "Count of deaths": 142290,
+    "Percent of US population": 9.6
+  },
+  {
+    "Age Group": "75-84 Years",
+    "Percentage of deaths": 26.2,
+    "Count of deaths": 170805,
+    "Percent of US population": 4.9
+  },
+  {
+    "Age Group": "85+ Years",
+    "Percentage of deaths": 28.5,
+    "Count of deaths": 185467,
+    "Percent of US population": 2
+  }
+]
