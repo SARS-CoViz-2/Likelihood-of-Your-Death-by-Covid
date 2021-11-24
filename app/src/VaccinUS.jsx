@@ -2,7 +2,7 @@ import React from 'react';
 import Plot from 'react-plotly.js';
 import { } from 'semantic-ui-react';
 
-const graph = require('./data/json/COVID-19_vaccinations_in_the_US.json');
+const graph = require('./data/json/COVID-19_Vaccinations_in_the_US.json');
 
 function unpack(rows, key) {
     return rows.map((row) => { return row[key]; });
