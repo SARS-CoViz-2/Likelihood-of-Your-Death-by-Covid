@@ -2,6 +2,7 @@ import React from 'react';
 import { Divider, Header } from 'semantic-ui-react';
 import './style/style.css';
 import RaceAndEthnicity from './RaceAndEthnicity';
+import VaccinUS from './VaccinUS';
 
 class App extends React.Component {
   render() {
@@ -10,7 +11,8 @@ class App extends React.Component {
         <Header as="h1" textAlign="center" id="headerTitle">Covid Visualization</Header>
 
         <RaceAndEthnicity />
-        
+    
+          <VaccinUS />
         <Divider />
         <div id="footer">
           <p>App created by Nadine Alcantara, Aaron Kam, and Irene Ma</p>
