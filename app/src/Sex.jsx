@@ -137,7 +137,7 @@ let updatemenus = [
             },
             {
                 args: [{ 'visible': [false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false] },
-                { 'title': "Percentage of Cases and Deaths by Sex: <br>5 - 11 Years Old" }],
+                { 'title': "Percentage of Cases and Deaths by Sex: <br>0 - 4 Years Old" }],
                 label: "0 - 4 Years Old",
                 method: 'update'
             },
