@@ -1,5 +1,32 @@
-{"sexes" : [
-  { "key": "m", "text": "Male", "value": "Male" },
-  { "key": "f", "text": "Female", "value": "Female" },
-  { "key": "o", "text": "Other", "value": "Other" }
-]}
+{"options" :{
+   "age" : [
+    {"key" : "a", "text": "0-4 Years", "value": "0-4 Years"},
+    {"key" : "b", "text": "5-11 Years", "value": "5-11 Years"},
+    {"key" : "c", "text": "12-15 Years", "value": "12-15 Years"},
+    {"key" : "d", "text": "16-17 Years", "value": "16-17 Years"},
+    {"key" : "e", "text": "18-29 Years", "value": "18-29 Years"},
+    {"key" : "f", "text": "30-39 Years", "value": "30-39 Years"},
+    {"key" : "g", "text": "40-49 Years", "value": "40-49 Years"},
+    {"key" : "h", "text": "50-64 Years", "value": "50-64 Years"},
+    {"key" : "i", "text": "65-74 Years", "value": "65-74 Years"},
+    {"key" : "j", "text": "75-84 Years", "value": "75-84 Years"},
+    {"key" : "k", "text": "85+ Years", "value": "85+ Years"},
+    {"key" : "l", "text": "-", "value": "-"}
+  ],
+   "sex" : [
+    {"key" : "m", "text": "Female", "value": "Female"},
+    {"key" : "n", "text": "Male", "value": "Male"},
+    {"key" : "o", "text": "Other", "value": "Other"},
+    {"key" : "p", "text": "-", "value": "-"}
+  ],
+   "race" : [
+    {"key" : "q", "text": "Hispanic/Latino", "value": "Hispanic/Latino"},
+    {"key" : "r", "text": "American Indian / Alaska Native Non-Hispanic", "value": "American Indian / Alaska Native Non-Hispanic"},
+    {"key" : "s", "text": "Asian Non-Hispanic", "value": "Asian Non-Hispanic"},
+    {"key" : "t", "text": "Black Non-Hispanic", "value": "Black Non-Hispanic"},
+    {"key" : "u", "text": "Native Hawaiian / Other Pacific Islander Non-Hispanic", "value": "Native Hawaiian / Other Pacific Islander Non-Hispanic"},
+    {"key" : "v", "text": "White Non-Hispanic", "value": "White Non-Hispanic"},
+    {"key" : "w", "text": "Multiple/Other Non-Hispanic", "value": "Multiple/Other Non-Hispanic"},
+    {"key" : "x", "text": "-", "value": "-"}
+  ]
+}}
