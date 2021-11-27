@@ -9,7 +9,7 @@ COVID-19_Case_Surveillance_Public_Use_Data_with_Geography.csv
 .pnp.js
 
 #packages
-package-lock.json
+app/package-lock.json
 
 # testing
 /coverage
