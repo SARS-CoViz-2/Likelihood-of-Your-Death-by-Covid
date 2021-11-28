@@ -1,0 +1,1 @@
+{ "sex_data": [{"value":"Female","pop":50.75,"cases":1.0305379065,"deaths":0.90017448,"dc_ratio":0.0146531114},{"value":"Male","pop":49.25,"cases":0.9684869797,"deaths":1.1028376711,"dc_ratio":0.019102268},{"value":"Other","pop":null,"cases":null,"deaths":null,"dc_ratio":0.0105140187},{"value":"-","pop":0.0,"cases":0.0,"deaths":0.0,"dc_ratio":0.0}] }
