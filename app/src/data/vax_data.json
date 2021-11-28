@@ -1,0 +1,1 @@
+{ "vax_data": [{"value":"Fully Vaccinated","pop":65.0234883,"cases":0.43370707,"deaths":0.356930146,"dc_ratio":0.008943004},{"value":"Unvaccinated","pop":34.9765117,"cases":2.073025291,"deaths":2.173070142,"dc_ratio":0.011391105},{"value":"-","pop":0.0,"cases":0.0,"deaths":0.0,"dc_ratio":0.0}] }

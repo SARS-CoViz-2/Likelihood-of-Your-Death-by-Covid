@@ -1,0 +1,7 @@
+# Represents data collected up to October 2,2021
+Vaccination Status,Case Risk,Death Risk,Portion of cases,Portion of deaths,Portion of US population,Count of cases,Count of deaths,dc_ratio
+Fully Vaccinated,0.43370707,0.356930146,28.38854889,23.05461576,65.0234883,68235,477,0.008943004
+Unvaccinated,2.073025291,2.173070142,71.61145111,76.94538424,34.9765117,172126,1592,0.011391105
+
+
+

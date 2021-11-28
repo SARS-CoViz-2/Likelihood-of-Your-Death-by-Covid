@@ -1,0 +1,37 @@
+{"options" :{
+   "sex" : [
+    {"key" : "a", "text": "Female", "value": "Female"},
+    {"key" : "b", "text": "Male", "value": "Male"},
+    {"key" : "c", "text": "Other", "value": "Other"},
+    {"key" : "d", "text": "-", "value": "-"}
+  ],
+   "ethnicity" : [
+    {"key" : "e", "text": "Hispanic/Latino", "value": "Hispanic/Latino"},
+    {"key" : "f", "text": "American Indian / Alaska Native Non-Hispanic", "value": "American Indian / Alaska Native Non-Hispanic"},
+    {"key" : "g", "text": "Asian Non-Hispanic", "value": "Asian Non-Hispanic"},
+    {"key" : "h", "text": "Black Non-Hispanic", "value": "Black Non-Hispanic"},
+    {"key" : "i", "text": "Native Hawaiian / Other Pacific Islander Non-Hispanic", "value": "Native Hawaiian / Other Pacific Islander Non-Hispanic"},
+    {"key" : "j", "text": "White Non-Hispanic", "value": "White Non-Hispanic"},
+    {"key" : "k", "text": "Multiple/Other Non-Hispanic", "value": "Multiple/Other Non-Hispanic"},
+    {"key" : "l", "text": "-", "value": "-"}
+  ],
+   "age" : [
+    {"key" : "m", "text": "0-4 Years", "value": "0-4 Years"},
+    {"key" : "n", "text": "5-11 Years", "value": "5-11 Years"},
+    {"key" : "o", "text": "12-15 Years", "value": "12-15 Years"},
+    {"key" : "p", "text": "16-17 Years", "value": "16-17 Years"},
+    {"key" : "q", "text": "18-29 Years", "value": "18-29 Years"},
+    {"key" : "r", "text": "30-39 Years", "value": "30-39 Years"},
+    {"key" : "s", "text": "40-49 Years", "value": "40-49 Years"},
+    {"key" : "t", "text": "50-64 Years", "value": "50-64 Years"},
+    {"key" : "u", "text": "65-74 Years", "value": "65-74 Years"},
+    {"key" : "v", "text": "75-84 Years", "value": "75-84 Years"},
+    {"key" : "w", "text": "85+ Years", "value": "85+ Years"},
+    {"key" : "x", "text": "-", "value": "-"}
+  ],
+   "vaccination" : [
+    {"key" : "y", "text": "Fully Vaccinated", "value": "Fully Vaccinated"},
+    {"key" : "z", "text": "Unvaccinated", "value": "Unvaccinated"},
+    {"key" : "aa", "text": "-", "value": "-"}
+  ]
+}}
