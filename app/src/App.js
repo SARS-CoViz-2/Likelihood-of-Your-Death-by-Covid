@@ -7,6 +7,7 @@ import Sex from './Sex';
 import SexPieCharts from './SexPieCharts';
 import AgeGroups from './AgeGroups';
 import VaccineTrend from './VaccineTrend';
+import RiskDashboard from './RiskDashboard';
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <VaccinUS />
         <VaccineTrend />
         <Divider />
+        <RiskDashboard />
         <div id="footer">
           <p>App created by Nadine Alcantara, Aaron Kam, and Irene Ma</p>
           <p>Visualized using <u><a href="https://plotly.com/javascript/react/">Plotly.js</a></u></p>
