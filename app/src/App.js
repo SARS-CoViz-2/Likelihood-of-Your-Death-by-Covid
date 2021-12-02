@@ -6,6 +6,7 @@ import VaccinUS from './VaccinUS';
 import Sex from './Sex';
 import SexPieCharts from './SexPieCharts';
 import AgeGroups from './AgeGroups';
+import VaccineTrend from './VaccineTrend';
 
 
 class App extends React.Component {
@@ -19,6 +20,7 @@ class App extends React.Component {
         <SexPieCharts />
         <AgeGroups />
         <VaccinUS />
+        <VaccineTrend />
         <Divider />
         <div id="footer">
           <p>App created by Nadine Alcantara, Aaron Kam, and Irene Ma</p>
