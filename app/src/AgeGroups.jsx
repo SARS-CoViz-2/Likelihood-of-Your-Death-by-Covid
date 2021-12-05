@@ -57,9 +57,13 @@ let layout = {
     yaxis: {
         title: "(%)",
     },
+    legend: {
+        x: 0,
+        y: 1
+    },
     showlegend: true,
     height: 450,
-    width: 1400,
+    width: 1200,
 };
 
 function AgeGroups() {

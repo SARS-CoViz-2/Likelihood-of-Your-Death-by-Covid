@@ -98,7 +98,7 @@ class App extends React.Component {
       <div>
         <Header as="h1" textAlign="center" id="headerTitle">Risk Calculator</Header>
 
-        <Plot centered id="myRisk"
+        <Plot centered id="myRisk" id="chart-display"
           data={this.state.data}
           layout={this.state.layout}
           frames={this.state.frames}
@@ -117,11 +117,6 @@ class App extends React.Component {
             <Dropdown label="vaccination" fluid selection options={options.vaccination} placeholder='Vaccination Status' value={value} onChange={this.handleVax}/>
           </Form.Group>
         </Form>
-        <div id="footer">
-          <p>App created by Nadine Alcantara, Aaron Kam, and Irene Ma</p>
-          <p>Visualized using <u><a href="https://plotly.com/javascript/react/">Plotly.js</a></u></p>
-        </div>
-        <br />
       </div>
     );
   }

@@ -15,6 +15,7 @@
     "react-scripts": "4.0.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
+    "underscore": "^1.13.1",
     "web-vitals": "^1.1.2"
   },
   "devDependencies": {
