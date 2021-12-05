@@ -116,9 +116,8 @@ function filter_and_unpack(rows, key, date) {
         }
       }]
   };
-  let plot = Plotly.newPlot('myDiv', data, layout).then(function() {
-    Plotly.addFrames('myDiv', frames);
-  });
+  
+
   function VaccineTrend() {
     return (
         <Plot
