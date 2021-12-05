@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div>
         <Header as="h1" textAlign="center" id="headerTitle">
-          Covid Visualization
+          Likelihood of Your Death by Covid
         </Header>
 
         <RaceAndEthnicity />        
