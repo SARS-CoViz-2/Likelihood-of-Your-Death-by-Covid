@@ -42,7 +42,7 @@ function filter_and_unpack(rows, key, date) {
   
   }];
   let layout = {
-      title: 'World Life Expectency<br>1952 - 2007',
+      title: 'Vaccine Trends in the United States<br>____ - ____',
       geo:{
          scope: 'usa',
          countrycolor: 'rgb(255, 255, 255)',
@@ -116,7 +116,9 @@ function filter_and_unpack(rows, key, date) {
         }
       }]
   };
-  
+  let plot = Plotly.newPlot('myDiv', data, layout).then(function() {
+    Plotly.addFrames('myDiv', frames);
+  });
   function VaccineTrend() {
     return (
         <Plot
