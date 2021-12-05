@@ -61,7 +61,7 @@ for (let graph of allCases) {
         marker: {
             color: 'rgba(222,45,38,0.8)'
         },
-        visible: "legendonly"
+        visible: false        
     }
     data.push(temp);
 }
@@ -89,7 +89,7 @@ for (let graph of allDeaths) {
         marker: {
             color: 'rgba(0,0,0,0.8)'
         },
-        visible: "legendonly"
+        visible: false
     }
     data.push(temp);
 }
@@ -119,7 +119,7 @@ for (let graph of allCases) {
             color: 'rgb(204,204,204)',
             opacity: 0.7
         },
-        visible: "legendonly"
+        visible: false
     }
     data.push(temp);
 }
@@ -139,7 +139,7 @@ let updatemenus = [
                 args: [{ 'visible': [false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>0 - 4 Years Old" }],
                 label: "0 - 4 Years Old",
-                method: 'update'
+                method: 'update'                
             },
             {
                 args: [{ 'visible': [false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false] },
@@ -205,16 +205,16 @@ let updatemenus = [
         direction: 'down',
         pad: { 'r': 10, 't': 10 },
         showactive: true,
-        x: 1.17,
-        xanchor: 'center',
+        x: 0,
+        xanchor: 'auto',
         y: 1.17,
-        yanchor: 'top',
+        yanchor: 'auto',
     }
 ];
 
 let layout = {
     barmode: 'group',
-    bargap: 2,
+    bargap: 3,
     bargroupgap: 0.1,
     title: "Percentage of Cases and Deaths by Race/Ethnicity: <br>All Age Groups",
     xaxis: {
@@ -223,9 +223,13 @@ let layout = {
     yaxis: {
         title: "(%)",
     },
+    legend: {
+        x: 0,
+        y: 1
+    },
     showlegend: true,
     height: 450,
-    width: 1400,
+    width: 1200,    
     updatemenus: updatemenus
 };
 

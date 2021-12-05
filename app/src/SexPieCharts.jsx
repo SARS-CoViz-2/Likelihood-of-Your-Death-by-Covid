@@ -20,7 +20,7 @@ let trace1 = {
     domain: { column: 0 },
     hole: .4,
     marker: {
-        color: 'rgba(222,45,38,0.8)'
+        colors: ['rgb(168, 197, 69)', 'rgb(255, 97, 56)']
     }
 };
 
@@ -61,6 +61,10 @@ let layout = {
             y: 0.5
         }
     ],
+    legend:{
+        x: 0.45,
+        y: 0.5
+    },
     showlegend: true,
     height: 450,
     width: 1100,

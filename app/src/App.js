@@ -13,7 +13,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header as="h1" textAlign="center" id="headerTitle">Covid Visualization</Header>
+        <Header as="h1" textAlign="center" id="headerTitle">
+          Covid Visualization
+        </Header>
 
         <RaceAndEthnicity />        
         <Sex />
@@ -22,6 +24,7 @@ class App extends React.Component {
         <VaccinUS />
         <Divider />
         <RiskDashboard />
+
         <div id="footer">
           <p>App created by Nadine Alcantara, Aaron Kam, and Irene Ma</p>
           <p>Visualized using <u><a href="https://plotly.com/javascript/react/">Plotly.js</a></u></p>
