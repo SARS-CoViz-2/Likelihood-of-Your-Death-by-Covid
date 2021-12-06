@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Divider, Header } from 'semantic-ui-react';
+import { Card, Container, Divider, Header } from 'semantic-ui-react';
 import './style/style.css';
 import RaceAndEthnicity from './RaceAndEthnicity';
 import VaccinUS from './VaccinUS';
@@ -13,10 +13,17 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Container style={{width: 1300}}>
         <Header as="h1" textAlign="center" id="headerTitle">
           Likelihood of Your Death by Covid
         </Header>
         <Card.Group>
+          <Card fluid id="landing">
+            <Card.Content id="chart-display">
+              <AgeGroups />
+            </Card.Content>
+          </Card>
+
           <Card fluid id="landing">
             <Card.Content id="chart-display">
               <RaceAndEthnicity />
@@ -32,12 +39,6 @@ class App extends React.Component {
           <Card fluid id="landing">
             <Card.Content id="chart-display">
               <SexPieCharts />
-            </Card.Content>
-          </Card>
-
-          <Card fluid id="landing">
-            <Card.Content id="chart-display">
-              <AgeGroups />
             </Card.Content>
           </Card>
 
@@ -59,6 +60,7 @@ class App extends React.Component {
           <p>Visualized using <u><a href="https://plotly.com/javascript/react/">Plotly.js</a></u></p>
         </div>
         <br />
+        </Container>
       </div>
     );
   }
