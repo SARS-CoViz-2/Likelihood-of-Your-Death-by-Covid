@@ -29,17 +29,17 @@ function About() {
                             </Card.Content>
                         </Card>
                         <Card>
-                            <Image src='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'/>
+                            <Image src='./Aaron.jpg'/>
                             <Card.Content>
                                 <Card.Header>Aaron Kam</Card.Header>
-                                <Card.Meta>ICS, __</Card.Meta>
+                                <Card.Meta>ICS, MBBE</Card.Meta>
                                 <Card.Description>
-                                    Description
+                                Aaron is a undergraduate studying Data Science and Molecular Biology at the University of Hawaiʻi. He is expected to graduate in Spring 2022 with a BS in Computer Science and a BS in Molecular Biosciences and Biotechnology.
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
-                                <Icon name='mail' />
-                                Email
+                                <Icon name='akam476@hawaii.edu' />
+                                akam476@hawaii.edu
                             </Card.Content>
                         </Card>
                         <Card>
