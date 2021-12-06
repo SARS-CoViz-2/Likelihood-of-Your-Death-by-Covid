@@ -4,6 +4,10 @@
 }
 
 #chart-display {
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
+}
+
+#landing {
+  margin: 2em;  
 }
