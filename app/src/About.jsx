@@ -7,13 +7,17 @@ function About() {
             <Grid.Row centered>
                 <Header as="h1" id="headerTitle">
                     About Team SARS-CoViz-2
-                </Header>
+                </Header>                                
+            </Grid.Row>
+            <Grid.Row style={{margin: '0 10em'}}>
+                <p>SARS-CoViz-2 is a team at the University of Hawaiʻi aiming to visualize the demographic trends of Covid-19.</p>
+                <p>Our dataset was downloaded from the <a href="https://covid.cdc.gov/covid-data-tracker/#demographics">CDC COVID Data Tracker</a>. This dataset contains data on 39,145,832 cases and 650,783 deaths in the United States (updated up to November 22, 2021).</p>
             </Grid.Row>
             <Grid.Row columns={1}>
                 <Grid.Column>
                     <Card.Group centered itemsPerRow={5}>
                         <Card>
-                            <Image src='./Nadine.jpg'/>
+                            <Image src='./Nadine.jpg' />
                             <Card.Content>
                                 <Card.Header>Nadine Alcantara</Card.Header>
                                 <Card.Meta>ICS</Card.Meta>
@@ -29,21 +33,23 @@ function About() {
                             </Card.Content>
                         </Card>
                         <Card>
-                            <Image src='./Aaron.jpg'/>
+                            <Image src='./Aaron.jpg' />
                             <Card.Content>
                                 <Card.Header>Aaron Kam</Card.Header>
                                 <Card.Meta>ICS, MBBE</Card.Meta>
                                 <Card.Description>
-                                Aaron is a undergraduate studying Data Science and Molecular Biology at the University of Hawaiʻi. He is expected to graduate in Spring 2022 with a BS in Computer Science and a BS in Molecular Biosciences and Biotechnology.
+                                    Aaron is a undergraduate studying Data Science and Molecular Biology at the University of Hawaiʻi. He is expected to graduate in Spring 2022 with a BS in Computer Science and a BS in Molecular Biosciences and Biotechnology.
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
-                                <Icon name='akam476@hawaii.edu' />
-                                akam476@hawaii.edu
+                                <Icon name='mail' />
+                                <a href="akam476@hawaii.edu">
+                                    akam476@hawaii.edu
+                                </a>
                             </Card.Content>
                         </Card>
                         <Card>
-                            <Image src='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'/>
+                            <Image src='https://react.semantic-ui.com/images/avatar/large/daniel.jpg' />
                             <Card.Content>
                                 <Card.Header>Irene Ma</Card.Header>
                                 <Card.Meta>ICS</Card.Meta>

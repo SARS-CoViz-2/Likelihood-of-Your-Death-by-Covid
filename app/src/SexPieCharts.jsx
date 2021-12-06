@@ -41,7 +41,7 @@ let trace2 = {
     },
     hovertemplate:
         "<b>%{text}s from all age groups</b><br><br>" +
-        "Percentage of Cases: <b>%{value}%</b>" +
+        "Percentage of Deaths: <b>%{value}%</b>" +
         "<extra></extra>"
 }
 
