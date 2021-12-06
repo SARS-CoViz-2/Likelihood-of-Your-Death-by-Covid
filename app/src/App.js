@@ -7,7 +7,7 @@ import Sex from './Sex';
 import SexPieCharts from './SexPieCharts';
 import AgeGroups from './AgeGroups';
 import RiskDashboard from './RiskDashboard';
-
+import About from './About';
 
 class App extends React.Component {
   render() {
@@ -53,11 +53,19 @@ class App extends React.Component {
               <RiskDashboard />
             </Card.Content>
           </Card>
+
+          <Card fluid id="landing">
+            <Card.Content id="chart-display">
+              <About />
+            </Card.Content>
+          </Card>
         </Card.Group>
         <Divider />
         <div id="footer">
-          <p>App created by Nadine Alcantara, Aaron Kam, and Irene Ma</p>
-          <p>Visualized using <u><a href="https://plotly.com/javascript/react/">Plotly.js</a></u></p>
+          <p>University of Hawaii at Manoa ICS484 / ACM484 Final Project<br />
+            Data visualized with <u><a href="https://plotly.com/javascript/react/">Plotly.js</a></u><br />
+            App created with <u><a href="https://reactjs.org/">React</a></u>
+          </p>
         </div>
         <br />
         </Container>
