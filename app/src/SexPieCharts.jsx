@@ -21,7 +21,11 @@ let trace1 = {
     hole: .4,
     marker: {
         colors: ['rgb(168, 197, 69)', 'rgb(255, 97, 56)']
-    }
+    },
+    hovertemplate:
+        "<b>%{text}s from all age groups</b><br><br>" +
+        "Percentage of Cases: <b>%{value}%</b>" +
+        "<extra></extra>"
 };
 
 let trace2 = {
@@ -34,7 +38,11 @@ let trace2 = {
     hole: .4,
     marker: {
         color: 'rgba(0,0,0,0.8)'
-    }
+    },
+    hovertemplate:
+        "<b>%{text}s from all age groups</b><br><br>" +
+        "Percentage of Cases: <b>%{value}%</b>" +
+        "<extra></extra>"
 }
 
 let data = [trace1, trace2];
@@ -61,7 +69,7 @@ let layout = {
             y: 0.5
         }
     ],
-    legend:{
+    legend: {
         x: 0.45,
         y: 0.5
     },

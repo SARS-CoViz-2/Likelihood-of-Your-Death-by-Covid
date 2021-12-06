@@ -46,7 +46,11 @@ let trace1 = {
     text: unpack(graph, "Percent of cases").map(String),
     marker: {
         color: 'rgba(222,45,38,0.8)'
-    }
+    },
+    hovertemplate:
+        "<b>%{x}</b><br><br>" +
+        "Percentage of Cases: <b>%{text}%</b>" +
+        "<extra></extra>"
 };
 
 let data = [trace1];
@@ -61,7 +65,11 @@ for (let graph of allCases) {
         marker: {
             color: 'rgba(222,45,38,0.8)'
         },
-        visible: false        
+        hovertemplate:
+            "<b>%{x}</b><br><br>" +
+            "Percentage of Cases: <b>%{text}%</b>" +
+            "<extra></extra>",
+        visible: false
     }
     data.push(temp);
 }
@@ -74,7 +82,11 @@ let trace2 = {
     text: unpack(deathGraph, "Percent of deaths").map(String),
     marker: {
         color: 'rgba(0,0,0,0.8)'
-    }
+    },
+    hovertemplate:
+        "<b>%{x}</b><br><br>" +
+        "Percentage of Deaths: <b>%{text}%</b>" +
+        "<extra></extra>"
 }
 
 data.push(trace2);
@@ -89,6 +101,10 @@ for (let graph of allDeaths) {
         marker: {
             color: 'rgba(0,0,0,0.8)'
         },
+        hovertemplate:
+            "<b>%{x}</b><br><br>" +
+            "Percentage of Deahts: <b>%{text}%</b>" +
+            "<extra></extra>",
         visible: false
     }
     data.push(temp);
@@ -103,7 +119,11 @@ let trace3 = {
     marker: {
         color: 'rgb(204,204,204)',
         opacity: 0.7
-    }
+    },
+    hovertemplate:
+        "<b>%{x}</b><br><br>" +
+        "Percentage of the<br>U.S. Population: <b>%{text}%</b>" +
+        "<extra></extra>"
 };
 
 data.push(trace3);
@@ -119,6 +139,10 @@ for (let graph of allCases) {
             color: 'rgb(204,204,204)',
             opacity: 0.7
         },
+        hovertemplate:
+            "<b>%{x}</b><br><br>" +
+            "Percentage of the<br>U.S. Population: <b>%{text}%</b>" +
+            "<extra></extra>",
         visible: false
     }
     data.push(temp);
@@ -139,7 +163,7 @@ let updatemenus = [
                 args: [{ 'visible': [false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false] },
                 { 'title': "Percentage of Cases and Deaths by Race/Ethnicity: <br>0 - 4 Years Old" }],
                 label: "0 - 4 Years Old",
-                method: 'update'                
+                method: 'update'
             },
             {
                 args: [{ 'visible': [false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false] },
