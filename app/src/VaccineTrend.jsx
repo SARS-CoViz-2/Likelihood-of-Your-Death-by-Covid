@@ -2,21 +2,21 @@ import React from 'react';
 import Plot from 'react-plotly.js';
 import { } from 'semantic-ui-react';
 
-const graph = require('./data/json/vaccine_trends.json');
+const graph = require('./data/json/COVID-19_Vaccinations_in_the_US.json');
 
 function filter_and_unpack(rows, key, date) {
-    return rows.filter(row => row['Date'] === date).map(row => row[key])
+    return rows.filter(row => row['Month'] === date).map(row => row[key])
 }
   
     var frames = []
     var slider_steps = []
   
-    let n = 1;
-    let num = 10;
+    let n = 9;
+    let num = 1;
     for (var i = 0; i <= n; i++) {
       let z = filter_and_unpack(graph, 'Admin_Per_100K', num)
       let locations = filter_and_unpack(graph, 'Location', num)
-      frames[i] = {data: [{z: z, locations: locations, text: locations}], name: num}
+      frames.push ({data: [{z: z, locations: locations, text: locations}], name: num})
       slider_steps.push ({
           label: num.toString(),
           method: "animate",
@@ -37,8 +37,8 @@ function filter_and_unpack(rows, key, date) {
         z: frames[0].data[0].z,
         text: frames[0].data[0].locations,
         zauto: false,
-        zmin: 80000,
-        zmax: 170000
+        zmin: 90000,
+        zmax: 5000000
   
   }];
   let layout = {
@@ -103,7 +103,7 @@ function filter_and_unpack(rows, key, date) {
         pad: {t: 50, b: 10},
         currentvalue: {
           visible: true,
-          prefix: "Date:",
+          prefix: "Month:",
           xanchor: "right",
           font: {
             size: 20,
@@ -123,7 +123,7 @@ function filter_and_unpack(rows, key, date) {
         <Plot
             data={data}
             layout={layout}
-            frame={frames}
+            frames={frames}
         />
     );
 }
