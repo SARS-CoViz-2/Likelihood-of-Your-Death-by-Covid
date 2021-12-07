@@ -54,17 +54,17 @@ function About() {
                             </Card.Content>
                         </Card>
                         <Card>
-                            <Image src='https://react.semantic-ui.com/images/avatar/large/daniel.jpg' />
+                            <Image src='./irene.jpeg' />
                             <Card.Content>
                                 <Card.Header>Irene Ma</Card.Header>
                                 <Card.Meta>ICS</Card.Meta>
                                 <Card.Description>
-                                    Description
+                                    Irene is a Computer Science undergraduate at the University of Hawaii at Manoa and is expected to graduate in Spring 2022 with her BS in ICS.
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon name='mail' />
-                                Email
+                                mairene@hawii.edu
                             </Card.Content>
                         </Card>
                     </Card.Group>

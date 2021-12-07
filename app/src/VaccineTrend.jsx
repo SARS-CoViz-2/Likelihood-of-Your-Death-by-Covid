@@ -103,7 +103,7 @@ function filter_and_unpack(rows, key, date) {
         pad: {t: 50, b: 10},
         currentvalue: {
           visible: true,
-          prefix: "Month In 2021:",
+          prefix: "Month:",
           xanchor: "right",
           font: {
             size: 20,

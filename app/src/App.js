@@ -25,7 +25,10 @@ class App extends React.Component {
                 <Card.Header as="h1" textAlign="center" style={{ fontSize: '2rem' }}>
                   Introduction
                 </Card.Header>
-                <p>Description</p>
+                <p>The COVID-19 pandemic has been a global public health challenge. 
+                  Since the initial emergence of a novel coronavirus in late 2019, the spread of SARS-CoV-2 has been unrelenting, impacting nearly every aspect of society worldwide. 
+                  The Centers for Disease Control and Prevention (CDC) is at the forefront of the public health response to the COVID-19 pandemic and is a respected source of data and information used by public health, medical, and policy decision makers on a wide range of issues. All of the data in the visualizations below has 
+                  been pulled from the CDC source. In addition to presenting the data we found in a pleasing way, we have also developed an interactive risk calculator that users can use to calculate their risk of infection and likelihood of death if caught with COVID-19. The risk calculator uses the Bayes rule to access each health factor.</p>
               </Card.Content>
             </Card>
 
@@ -71,6 +74,11 @@ class App extends React.Component {
             <Card fluid id="landing">
               <Card.Content id="chart-display">
                 <VaccineTrend />
+                </Card.Content>
+              <Card.Content style={{ margin: '0 5em' }}>
+                <p> 
+                  This map displays the total amount of COVID-19 doses administered per 100,000 census population based on the jurisdiction where recipient lives from the months of Janurary to October of 2021. 
+                  Data represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities. </p>
               </Card.Content>
             </Card>
 
