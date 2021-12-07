@@ -5,13 +5,18 @@ function About() {
     return (
         <Grid container>
             <Grid.Row centered>
-                <Header as="h1" id="headerTitle">
+                <Header as="h1" style={{ marginTop: '2rem' }}>
                     About Team SARS-CoViz-2
-                </Header>                                
+                </Header>
             </Grid.Row>
-            <Grid.Row style={{margin: '0 10em'}}>
-                <p>SARS-CoViz-2 is a team at the University of Hawaiʻi aiming to visualize the demographic trends of Covid-19.</p>
-                <p>Our dataset was downloaded from the <a href="https://covid.cdc.gov/covid-data-tracker/#demographics">CDC COVID Data Tracker</a>. This dataset contains data on 39,145,832 cases and 650,783 deaths in the United States (updated up to November 22, 2021).</p>
+            <Grid.Row style={{ margin: '0 10em' }}>
+                <p>SARS-CoViz-2 is a team from the University of Hawaiʻi aiming to visualize the demographic trends of Covid-19.</p>
+                <p>Our dataset was downloaded from the <a href="https://covid.cdc.gov/covid-data-tracker/#demographics">CDC COVID Data Tracker</a>. This dataset contains data on 39,145,832 cases and 650,783 deaths in the United States (updated up to November 22, 2021). We used data that primarily focused on case and death proportions for age, sex, and ethnic groups; and vaccines administered in the U.S. overtime.</p>
+            </Grid.Row>
+            <Grid.Row centered>
+                <Header as="h1" id="headerTitle">
+                    The Members
+                </Header>
             </Grid.Row>
             <Grid.Row columns={1}>
                 <Grid.Column>
