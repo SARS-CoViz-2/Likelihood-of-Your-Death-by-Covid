@@ -3,7 +3,15 @@
   margin-top: 2em;
 }
 
+#footer p {
+  font-size: 1em;
+}
+
 #chart-display {
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
+}
+
+#landing {
+  margin: 2em;  
 }
