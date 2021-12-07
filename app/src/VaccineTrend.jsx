@@ -38,11 +38,11 @@ function filter_and_unpack(rows, key, date) {
         text: frames[0].data[0].locations,
         zauto: false,
         zmin: 90000,
-        zmax: 5000000
+        zmax: 6000000
   
   }];
   let layout = {
-      title: 'Vaccine Trends in the United States<br>____ - ____',
+      title: 'Vaccine Trends in the United States<br>2021',
       geo:{
          scope: 'usa',
          countrycolor: 'rgb(255, 255, 255)',
@@ -103,7 +103,7 @@ function filter_and_unpack(rows, key, date) {
         pad: {t: 50, b: 10},
         currentvalue: {
           visible: true,
-          prefix: "Month:",
+          prefix: "Month In 2021:",
           xanchor: "right",
           font: {
             size: 20,
