@@ -14,21 +14,37 @@ class App extends React.Component {
     return (
       <div>
         <Container style={{ width: 1300 }}>
-          <Header as="h1" textAlign="center" style={{ marginTop: '2rem'}}>
+          <Header as="h1" textAlign="center" style={{ marginTop: '2rem' }}>
             Likelihood of Your Death by Covid
           </Header>
           <Card.Group>
+
+            <Card fluid id="landing">
+              <Card.Content style={{ margin: '0 5em' }}>
+                <Card.Header as="h1" textAlign="center" style={{ fontSize: '2rem' }}>
+                  Introduction
+                </Card.Header>
+                <p>Description</p>
+              </Card.Content>
+            </Card>
+
             <Card fluid id="landing">
               <Card.Content id="chart-display">
+                <Card.Header as="h1" textAlign="center" style={{ fontSize: '2rem' }}>
+                  Age Groups
+                </Card.Header>
                 <AgeGroups />
               </Card.Content>
               <Card.Content style={{ margin: '0 5em' }}>
                 <p>As of 2021, age group data was available for 38,748,064 cases and 650,704 deaths in the United States. Cases of the virus start to spike in the age groups of 18-29 year olds with an 18.8% increase, while deaths spike within the 50-64 age group with a 13.2% increase.</p>
               </Card.Content>
             </Card>
-            
+
             <Card fluid id="landing">
               <Card.Content id="chart-display">
+                <Card.Header as="h1" textAlign="center" style={{ fontSize: '2rem' }}>
+                  Ethnic Groups
+                </Card.Header>
                 <RaceAndEthnicity />
               </Card.Content>
               <Card.Content style={{ margin: '0 5em' }}>
@@ -38,6 +54,9 @@ class App extends React.Component {
 
             <Card fluid id="landing">
               <Card.Content id="chart-display">
+                <Card.Header as="h1" textAlign="center" style={{ fontSize: '2rem' }}>
+                  Sex Groups
+                </Card.Header>
                 <Sex />
               </Card.Content>
               <Card.Content id="chart-display">
@@ -57,6 +76,15 @@ class App extends React.Component {
             <Card fluid id="landing">
               <Card.Content id="chart-display">
                 <RiskDashboard />
+              </Card.Content>
+            </Card>
+
+            <Card fluid id="landing">
+              <Card.Content style={{ margin: '0 5em' }}>
+                <Card.Header as="h1" textAlign="center" style={{ fontSize: '2rem' }}>
+                  Conclusion
+                </Card.Header>
+                <p>Description</p>
               </Card.Content>
             </Card>
 
