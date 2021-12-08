@@ -89,15 +89,6 @@ class App extends React.Component {
             </Card>
 
             <Card fluid id="landing">
-              <Card.Content style={{ margin: '0 5em' }}>
-                <Card.Header as="h1" textAlign="center" style={{ fontSize: '2rem' }}>
-                  Conclusion
-                </Card.Header>
-                <p>Description</p>
-              </Card.Content>
-            </Card>
-
-            <Card fluid id="landing">
               <Card.Content id="chart-display">
                 <About />
               </Card.Content>
