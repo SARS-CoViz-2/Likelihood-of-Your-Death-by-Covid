@@ -193,7 +193,7 @@ class App extends React.Component {
 
             </Grid.Column>
           </Grid>
-          <Header as="h1" textAlign="center">Conparisons to Other Odds of Dying in 2019</Header>
+          <Header as="h1" textAlign="center">Comparisons to Other Odds of Dying in 2019</Header>
           <Plot
             data={[{
               type: 'scatter',
@@ -202,9 +202,9 @@ class App extends React.Component {
               mode: 'markers',
               name: 'Your Odds of Dying from Covid-19',
               marker: {
-                color: 'rgba(156, 165, 196, 0.95)',
+                color: ['rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(204, 204, 204, 0.95)', 'rgba(0, 0, 0, 0.95)'],
                 line: {
-                  color: 'rgba(156, 165, 196, 1.0)',
+                  color: 'rgba(217, 217, 217, 1.0)',
                   width: 1,
                 },
                 symbol: 'circle',
