@@ -91,6 +91,10 @@ class App extends React.Component {
               <Card.Content id="chart-display">
                 <RiskDashboard />
               </Card.Content>
+              <Card.Content style={{ margin: '0 5em' }}>
+                <p> 
+                  The lifetime odds of dying from various factors in the U.S. was found by <a href="https://injuryfacts.nsc.org/all-injuries/preventable-death-overview/odds-of-dying/">NSC Injury Facts</a>. The general odds of dying from Covid-19 was determined by finding the quotient of our total deaths / total cases from our data, which results in a 1.6% fatality rate. Your unique odds of dying from Covid-19 is calculated by multiplying your calculated risk of death by the general risk of death.</p>
+              </Card.Content>
             </Card>
 
             <Card fluid id="landing">
