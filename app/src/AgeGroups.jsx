@@ -18,7 +18,11 @@ let trace1 = {
     text: cases.map(String),
     marker: {
         color: 'rgba(222,45,38,0.8)'
-    }
+    },
+    hovertemplate:
+        "<b>Age Group: %{x}</b><br><br>" +
+        "Percentage of Cases: <b>%{text}%</b>" +
+        "<extra></extra>"
 }
 
 let trace2 = {
@@ -29,7 +33,11 @@ let trace2 = {
     text: deaths.map(String),
     marker: {
         color: 'rgba(0,0,0,0.8)'
-    }
+    },
+    hovertemplate:
+        "<b>Age Group: %{x}</b><br><br>" +
+        "Percentage of Deaths: <b>%{text}%</b>" +
+        "<extra></extra>"
 }
 
 let trace3 = {
@@ -41,7 +49,11 @@ let trace3 = {
     marker: {
         color: 'rgb(204,204,204)',
         opacity: 0.7
-    }
+    },
+    hovertemplate:
+        "<b>Age Group: %{x}</b><br><br>" +
+        "Percentage of the<br>U.S. Population: <b>%{text}%</b>" +
+        "<extra></extra>",
 };
 
 let data = [trace1, trace2, trace3]
@@ -57,9 +69,13 @@ let layout = {
     yaxis: {
         title: "(%)",
     },
+    legend: {
+        x: 0,
+        y: 1
+    },
     showlegend: true,
     height: 450,
-    width: 1400,
+    width: 1200,
 };
 
 function AgeGroups() {

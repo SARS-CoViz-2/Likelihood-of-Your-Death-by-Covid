@@ -1,0 +1,3002 @@
+[
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "AK",
+    "Admin_Per_100K": 248587
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "AL",
+    "Admin_Per_100K": 178763
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "AR",
+    "Admin_Per_100K": 137343
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "AZ",
+    "Admin_Per_100K": 106570
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "CA",
+    "Admin_Per_100K": 110307
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "CO",
+    "Admin_Per_100K": 159098
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "CT",
+    "Admin_Per_100K": 190528
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "DE",
+    "Admin_Per_100K": 134836
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "FL",
+    "Admin_Per_100K": 143815
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "GA",
+    "Admin_Per_100K": 105411
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "GU",
+    "Admin_Per_100K": 129310
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "HI",
+    "Admin_Per_100K": 118916
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "IA",
+    "Admin_Per_100K": 133006
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "ID",
+    "Admin_Per_100K": 99823
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "IL",
+    "Admin_Per_100K": 119984
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "IN",
+    "Admin_Per_100K": 140297
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "KS",
+    "Admin_Per_100K": 111220
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "KY",
+    "Admin_Per_100K": 137623
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "LA",
+    "Admin_Per_100K": 145315
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "MA",
+    "Admin_Per_100K": 130737
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "MD",
+    "Admin_Per_100K": 118862
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "ME",
+    "Admin_Per_100K": 163474
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "MI",
+    "Admin_Per_100K": 134204
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "MN",
+    "Admin_Per_100K": 129137
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "MO",
+    "Admin_Per_100K": 113164
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "MS",
+    "Admin_Per_100K": 107856
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "MT",
+    "Admin_Per_100K": 156344
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "NC",
+    "Admin_Per_100K": 120372
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "ND",
+    "Admin_Per_100K": 208613
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "NE",
+    "Admin_Per_100K": 152969
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "NH",
+    "Admin_Per_100K": 157080
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "NJ",
+    "Admin_Per_100K": 126762
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "NM",
+    "Admin_Per_100K": 182700
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "NV",
+    "Admin_Per_100K": 101728
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "NY",
+    "Admin_Per_100K": 145458
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "OH",
+    "Admin_Per_100K": 117359
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "OK",
+    "Admin_Per_100K": 170058
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "OR",
+    "Admin_Per_100K": 133260
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "PA",
+    "Admin_Per_100K": 122615
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "SC",
+    "Admin_Per_100K": 116642
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "SD",
+    "Admin_Per_100K": 207511
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "TN",
+    "Admin_Per_100K": 146826
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "TX",
+    "Admin_Per_100K": 148335
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "UT",
+    "Admin_Per_100K": 139736
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "VA",
+    "Admin_Per_100K": 123652
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "VT",
+    "Admin_Per_100K": 183368
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "WA",
+    "Admin_Per_100K": 123524
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "WI",
+    "Admin_Per_100K": 110279
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "WV",
+    "Admin_Per_100K": 249902
+  },
+  {
+    "Month": 1,
+    "Name": "Jan",
+    "Location": "WY",
+    "Admin_Per_100K": 138004
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "AK",
+    "Admin_Per_100K": 740535
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "AL",
+    "Admin_Per_100K": 515819
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "AR",
+    "Admin_Per_100K": 431363
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "AZ",
+    "Admin_Per_100K": 437770
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "CA",
+    "Admin_Per_100K": 422342
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "CO",
+    "Admin_Per_100K": 467175
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "CT",
+    "Admin_Per_100K": 550505
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "DE",
+    "Admin_Per_100K": 438508
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "FL",
+    "Admin_Per_100K": 450425
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "GA",
+    "Admin_Per_100K": 387661
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "GU",
+    "Admin_Per_100K": 661268
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "HI",
+    "Admin_Per_100K": 487365
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "IA",
+    "Admin_Per_100K": 411060
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "ID",
+    "Admin_Per_100K": 495654
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "IL",
+    "Admin_Per_100K": 413545
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "IN",
+    "Admin_Per_100K": 430741
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "KS",
+    "Admin_Per_100K": 381000
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "KY",
+    "Admin_Per_100K": 430727
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "LA",
+    "Admin_Per_100K": 449069
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "MA",
+    "Admin_Per_100K": 451323
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "MD",
+    "Admin_Per_100K": 405993
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "ME",
+    "Admin_Per_100K": 474000
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "MI",
+    "Admin_Per_100K": 449360
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "MN",
+    "Admin_Per_100K": 452167
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "MO",
+    "Admin_Per_100K": 385789
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "MS",
+    "Admin_Per_100K": 386428
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "MT",
+    "Admin_Per_100K": 479628
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "NC",
+    "Admin_Per_100K": 439103
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "ND",
+    "Admin_Per_100K": 543713
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "NE",
+    "Admin_Per_100K": 434298
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "NH",
+    "Admin_Per_100K": 441298
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "NJ",
+    "Admin_Per_100K": 436124
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "NM",
+    "Admin_Per_100K": 607586
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "NV",
+    "Admin_Per_100K": 408282
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "NY",
+    "Admin_Per_100K": 430404
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "OH",
+    "Admin_Per_100K": 414372
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "OK",
+    "Admin_Per_100K": 505354
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "OR",
+    "Admin_Per_100K": 451213
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "PA",
+    "Admin_Per_100K": 405311
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "SC",
+    "Admin_Per_100K": 400669
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "SD",
+    "Admin_Per_100K": 558816
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "TN",
+    "Admin_Per_100K": 393126
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "TX",
+    "Admin_Per_100K": 387976
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "UT",
+    "Admin_Per_100K": 454019
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "VA",
+    "Admin_Per_100K": 462119
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "VT",
+    "Admin_Per_100K": 502899
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "WA",
+    "Admin_Per_100K": 434324
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "WI",
+    "Admin_Per_100K": 462748
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "WV",
+    "Admin_Per_100K": 604682
+  },
+  {
+    "Month": 2,
+    "Name": "Feb",
+    "Location": "WY",
+    "Admin_Per_100K": 489295
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "AK",
+    "Admin_Per_100K": 1479541
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "AL",
+    "Admin_Per_100K": 1071240
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "AR",
+    "Admin_Per_100K": 935268
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "AZ",
+    "Admin_Per_100K": 1121289
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "CA",
+    "Admin_Per_100K": 1037445
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "CO",
+    "Admin_Per_100K": 1077242
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "CT",
+    "Admin_Per_100K": 1277960
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "DE",
+    "Admin_Per_100K": 1082888
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "FL",
+    "Admin_Per_100K": 1045079
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "GA",
+    "Admin_Per_100K": 841206
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "GU",
+    "Admin_Per_100K": 1280846
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "HI",
+    "Admin_Per_100K": 1194098
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "IA",
+    "Admin_Per_100K": 1122597
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "ID",
+    "Admin_Per_100K": 994842
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "IL",
+    "Admin_Per_100K": 1073090
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "IN",
+    "Admin_Per_100K": 1009431
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "KS",
+    "Admin_Per_100K": 997200
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "KY",
+    "Admin_Per_100K": 1085233
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "LA",
+    "Admin_Per_100K": 1001199
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "MA",
+    "Admin_Per_100K": 1203505
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "MD",
+    "Admin_Per_100K": 1053277
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "ME",
+    "Admin_Per_100K": 1187559
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "MI",
+    "Admin_Per_100K": 1027407
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "MN",
+    "Admin_Per_100K": 1134418
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "MO",
+    "Admin_Per_100K": 976608
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "MS",
+    "Admin_Per_100K": 940323
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "MT",
+    "Admin_Per_100K": 1160884
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "NC",
+    "Admin_Per_100K": 1051970
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "ND",
+    "Admin_Per_100K": 1311756
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "NE",
+    "Admin_Per_100K": 1122489
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "NH",
+    "Admin_Per_100K": 1076712
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "NJ",
+    "Admin_Per_100K": 1119128
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "NM",
+    "Admin_Per_100K": 1443988
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "NV",
+    "Admin_Per_100K": 1030959
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "NY",
+    "Admin_Per_100K": 1058950
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "OH",
+    "Admin_Per_100K": 1036818
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "OK",
+    "Admin_Per_100K": 1183828
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "OR",
+    "Admin_Per_100K": 1039436
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "PA",
+    "Admin_Per_100K": 1052702
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "SC",
+    "Admin_Per_100K": 982001
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "SD",
+    "Admin_Per_100K": 1345087
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "TN",
+    "Admin_Per_100K": 903637
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "TX",
+    "Admin_Per_100K": 923856
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "UT",
+    "Admin_Per_100K": 986883
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "VA",
+    "Admin_Per_100K": 1093090
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "VT",
+    "Admin_Per_100K": 1208910
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "WA",
+    "Admin_Per_100K": 1087543
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "WI",
+    "Admin_Per_100K": 1155223
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "WV",
+    "Admin_Per_100K": 1208446
+  },
+  {
+    "Month": 3,
+    "Name": "Mar",
+    "Location": "WY",
+    "Admin_Per_100K": 1123281
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "AK",
+    "Admin_Per_100K": 2070319
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "AL",
+    "Admin_Per_100K": 1561535
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "AR",
+    "Admin_Per_100K": 1523632
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "AZ",
+    "Admin_Per_100K": 1786335
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "CA",
+    "Admin_Per_100K": 1868523
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "CO",
+    "Admin_Per_100K": 1879245
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "CT",
+    "Admin_Per_100K": 2212967
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "DE",
+    "Admin_Per_100K": 1904017
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "FL",
+    "Admin_Per_100K": 1761855
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "GA",
+    "Admin_Per_100K": 1458143
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "GU",
+    "Admin_Per_100K": 1960129
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "HI",
+    "Admin_Per_100K": 2006090
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "IA",
+    "Admin_Per_100K": 1903118
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "ID",
+    "Admin_Per_100K": 1573473
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "IL",
+    "Admin_Per_100K": 1851273
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "IN",
+    "Admin_Per_100K": 1570005
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "KS",
+    "Admin_Per_100K": 1766518
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "KY",
+    "Admin_Per_100K": 1811150
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "LA",
+    "Admin_Per_100K": 1548034
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "MA",
+    "Admin_Per_100K": 2146148
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "MD",
+    "Admin_Per_100K": 1914679
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "ME",
+    "Admin_Per_100K": 2147506
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "MI",
+    "Admin_Per_100K": 1758420
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "MN",
+    "Admin_Per_100K": 1921203
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "MO",
+    "Admin_Per_100K": 1630507
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "MS",
+    "Admin_Per_100K": 1411935
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "MT",
+    "Admin_Per_100K": 1841822
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "NC",
+    "Admin_Per_100K": 1700990
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "ND",
+    "Admin_Per_100K": 1983526
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "NE",
+    "Admin_Per_100K": 1875538
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "NH",
+    "Admin_Per_100K": 2192472
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "NJ",
+    "Admin_Per_100K": 2018500
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "NM",
+    "Admin_Per_100K": 2232332
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "NV",
+    "Admin_Per_100K": 1693392
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "NY",
+    "Admin_Per_100K": 1977085
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "OH",
+    "Admin_Per_100K": 1791399
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "OK",
+    "Admin_Per_100K": 1806286
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "OR",
+    "Admin_Per_100K": 1762282
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "PA",
+    "Admin_Per_100K": 1906724
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "SC",
+    "Admin_Per_100K": 1607844
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "SD",
+    "Admin_Per_100K": 2074381
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "TN",
+    "Admin_Per_100K": 1496023
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "TX",
+    "Admin_Per_100K": 1627366
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "UT",
+    "Admin_Per_100K": 1669040
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "VA",
+    "Admin_Per_100K": 1905879
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "VT",
+    "Admin_Per_100K": 2170314
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "WA",
+    "Admin_Per_100K": 1874702
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "WI",
+    "Admin_Per_100K": 1988371
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "WV",
+    "Admin_Per_100K": 1757156
+  },
+  {
+    "Month": 4,
+    "Name": "Apr",
+    "Location": "WY",
+    "Admin_Per_100K": 1637255
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "AK",
+    "Admin_Per_100K": 2511061
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "AL",
+    "Admin_Per_100K": 1904684
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "AR",
+    "Admin_Per_100K": 2007404
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "AZ",
+    "Admin_Per_100K": 2372707
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "CA",
+    "Admin_Per_100K": 2735868
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "CO",
+    "Admin_Per_100K": 2753497
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "CT",
+    "Admin_Per_100K": 3203392
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "DE",
+    "Admin_Per_100K": 2735926
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "FL",
+    "Admin_Per_100K": 2484246
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "GA",
+    "Admin_Per_100K": 2049259
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "GU",
+    "Admin_Per_100K": 2736993
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "HI",
+    "Admin_Per_100K": 315873
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "IA",
+    "Admin_Per_100K": 2606710
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "ID",
+    "Admin_Per_100K": 2031069
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "IL",
+    "Admin_Per_100K": 2605325
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "IN",
+    "Admin_Per_100K": 2164976
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "KS",
+    "Admin_Per_100K": 2337455
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "KY",
+    "Admin_Per_100K": 2372179
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "LA",
+    "Admin_Per_100K": 1946599
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "MA",
+    "Admin_Per_100K": 3253101
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "MD",
+    "Admin_Per_100K": 2833140
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "ME",
+    "Admin_Per_100K": 3112753
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "MI",
+    "Admin_Per_100K": 2488121
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "MN",
+    "Admin_Per_100K": 2722454
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "MO",
+    "Admin_Per_100K": 2219764
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "MS",
+    "Admin_Per_100K": 1761734
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "MT",
+    "Admin_Per_100K": 2380968
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "NC",
+    "Admin_Per_100K": 2274552
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "ND",
+    "Admin_Per_100K": 2403606
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "NE",
+    "Admin_Per_100K": 2540005
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "NH",
+    "Admin_Per_100K": 2838724
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "NJ",
+    "Admin_Per_100K": 2900297
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "NM",
+    "Admin_Per_100K": 2953461
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "NV",
+    "Admin_Per_100K": 2323619
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "NY",
+    "Admin_Per_100K": 285918
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "OH",
+    "Admin_Per_100K": 2450769
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "OK",
+    "Admin_Per_100K": 2225092
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "OR",
+    "Admin_Per_100K": 2649611
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "PA",
+    "Admin_Per_100K": 2783679
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "SC",
+    "Admin_Per_100K": 2134977
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "SD",
+    "Admin_Per_100K": 2613977
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "TN",
+    "Admin_Per_100K": 2046726
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "TX",
+    "Admin_Per_100K": 2257575
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "UT",
+    "Admin_Per_100K": 2312552
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "VA",
+    "Admin_Per_100K": 2762044
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "VT",
+    "Admin_Per_100K": 3366859
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "WA",
+    "Admin_Per_100K": 2765399
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "WI",
+    "Admin_Per_100K": 2728276
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "WV",
+    "Admin_Per_100K": 2161234
+  },
+  {
+    "Month": 5,
+    "Name": "May",
+    "Location": "WY",
+    "Admin_Per_100K": 2026112
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "AK",
+    "Admin_Per_100K": 2635784
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "AL",
+    "Admin_Per_100K": 2055115
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "AR",
+    "Admin_Per_100K": 2144936
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "AZ",
+    "Admin_Per_100K": 2572969
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "CA",
+    "Admin_Per_100K": 3088153
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "CO",
+    "Admin_Per_100K": 3084991
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "CT",
+    "Admin_Per_100K": 3564526
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "DE",
+    "Admin_Per_100K": 3051304
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "FL",
+    "Admin_Per_100K": 2787734
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "GA",
+    "Admin_Per_100K": 2264459
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "GU",
+    "Admin_Per_100K": 3166216
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "HI",
+    "Admin_Per_100K": 3473382
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "IA",
+    "Admin_Per_100K": 2804140
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "ID",
+    "Admin_Per_100K": 2153136
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "IL",
+    "Admin_Per_100K": 2918643
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "IN",
+    "Admin_Per_100K": 2392078
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "KS",
+    "Admin_Per_100K": 2479093
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "KY",
+    "Admin_Per_100K": 2570137
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "LA",
+    "Admin_Per_100K": 2078377
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "MA",
+    "Admin_Per_100K": 3701644
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "MD",
+    "Admin_Per_100K": 3237413
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "ME",
+    "Admin_Per_100K": 3472482
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "MI",
+    "Admin_Per_100K": 2730364
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "MN",
+    "Admin_Per_100K": 3006785
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "MO",
+    "Admin_Per_100K": 2393397
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "MS",
+    "Admin_Per_100K": 1856286
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "MT",
+    "Admin_Per_100K": 2542252
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "NC",
+    "Admin_Per_100K": 2413970
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "ND",
+    "Admin_Per_100K": 2476143
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "NE",
+    "Admin_Per_100K": 2754138
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "NH",
+    "Admin_Per_100K": 3246906
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "NJ",
+    "Admin_Per_100K": 3244795
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "NM",
+    "Admin_Per_100K": 3204143
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "NV",
+    "Admin_Per_100K": 2569633
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "NY",
+    "Admin_Per_100K": 3206678
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "OH",
+    "Admin_Per_100K": 2650400
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "OK",
+    "Admin_Per_100K": 2356417
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "OR",
+    "Admin_Per_100K": 30880370
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "PA",
+    "Admin_Per_100K": 3124822
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "SC",
+    "Admin_Per_100K": 2317954
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "SD",
+    "Admin_Per_100K": 2707797
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "TN",
+    "Admin_Per_100K": 2224262
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "TX",
+    "Admin_Per_100K": 2527254
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "UT",
+    "Admin_Per_100K": 2541010
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "VA",
+    "Admin_Per_100K": 3105822
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "VT",
+    "Admin_Per_100K": 3942535
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "WA",
+    "Admin_Per_100K": 3208117
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "WI",
+    "Admin_Per_100K": 2934451
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "WV",
+    "Admin_Per_100K": 2288543
+  },
+  {
+    "Month": 6,
+    "Name": "Jun",
+    "Location": "WY",
+    "Admin_Per_100K": 2121400
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "AK",
+    "Admin_Per_100K": 2926149
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "AL",
+    "Admin_Per_100K": 2291689
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "AR",
+    "Admin_Per_100K": 2387471
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "AZ",
+    "Admin_Per_100K": 2952008
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "CA",
+    "Admin_Per_100K": 3448063
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "CO",
+    "Admin_Per_100K": 3411515
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "CT",
+    "Admin_Per_100K": 3913688
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "DE",
+    "Admin_Per_100K": 3392033
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "FL",
+    "Admin_Per_100K": 3142459
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "GA",
+    "Admin_Per_100K": 2527414
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "GU",
+    "Admin_Per_100K": 3669301
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "HI",
+    "Admin_Per_100K": 3723765
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "IA",
+    "Admin_Per_100K": 3034169
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "ID",
+    "Admin_Per_100K": 2340842
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "IL",
+    "Admin_Per_100K": 3256414
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "IN",
+    "Admin_Per_100K": 2727930
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "KS",
+    "Admin_Per_100K": 2733086
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "KY",
+    "Admin_Per_100K": 2839273
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "LA",
+    "Admin_Per_100K": 2326289
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "MA",
+    "Admin_Per_100K": 4047523
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "MD",
+    "Admin_Per_100K": 3614606
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "ME",
+    "Admin_Per_100K": 3785781
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "MI",
+    "Admin_Per_100K": 2985046
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "MN",
+    "Admin_Per_100K": 3287060
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "MO",
+    "Admin_Per_100K": 2663645
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "MS",
+    "Admin_Per_100K": 2133363
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "MT",
+    "Admin_Per_100K": 2774673
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "NC",
+    "Admin_Per_100K": 2805287
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "ND",
+    "Admin_Per_100K": 2654220
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "NE",
+    "Admin_Per_100K": 3044529
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "NH",
+    "Admin_Per_100K": 3572676
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "NJ",
+    "Admin_Per_100K": 3528189
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "NM",
+    "Admin_Per_100K": 3599301
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "NV",
+    "Admin_Per_100K": 2888970
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "NY",
+    "Admin_Per_100K": 3568572
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "OH",
+    "Admin_Per_100K": 2887714
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "OK",
+    "Admin_Per_100K": 2628279
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "OR",
+    "Admin_Per_100K": 3426872
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "PA",
+    "Admin_Per_100K": 3445866
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "SC",
+    "Admin_Per_100K": 2586964
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "SD",
+    "Admin_Per_100K": 2923410
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "TN",
+    "Admin_Per_100K": 2533633
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "TX",
+    "Admin_Per_100K": 2835235
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "UT",
+    "Admin_Per_100K": 2824568
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "VA",
+    "Admin_Per_100K": 3437178
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "VT",
+    "Admin_Per_100K": 4288573
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "WA",
+    "Admin_Per_100K": 3588169
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "WI",
+    "Admin_Per_100K": 3219958
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "WV",
+    "Admin_Per_100K": 2541282
+  },
+  {
+    "Month": 7,
+    "Name": "Jul",
+    "Location": "WY",
+    "Admin_Per_100K": 2342043
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "AK",
+    "Admin_Per_100K": 3052910
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "AL",
+    "Admin_Per_100K": 2626785
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "AR",
+    "Admin_Per_100K": 2702074
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "AZ",
+    "Admin_Per_100K": 3123559
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "CA",
+    "Admin_Per_100K": 3655296
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "CO",
+    "Admin_Per_100K": 3575656
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "CT",
+    "Admin_Per_100K": 4089598
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "DE",
+    "Admin_Per_100K": 3566190
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "FL",
+    "Admin_Per_100K": 3421878
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "GA",
+    "Admin_Per_100K": 2722739
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "GU",
+    "Admin_Per_100K": 3875964
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "HI",
+    "Admin_Per_100K": 3826518
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "IA",
+    "Admin_Per_100K": 3163454
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "ID",
+    "Admin_Per_100K": 2452003
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "IL",
+    "Admin_Per_100K": 3453307
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "IN",
+    "Admin_Per_100K": 2873881
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "KS",
+    "Admin_Per_100K": 2985779
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "KY",
+    "Admin_Per_100K": 3031906
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "LA",
+    "Admin_Per_100K": 2618943
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "MA",
+    "Admin_Per_100K": 4184052
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "MD",
+    "Admin_Per_100K": 3794719
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "ME",
+    "Admin_Per_100K": 3926584
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "MI",
+    "Admin_Per_100K": 3100304
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "MN",
+    "Admin_Per_100K": 3423779
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "MO",
+    "Admin_Per_100K": 2887947
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "MS",
+    "Admin_Per_100K": 2405670
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "MT",
+    "Admin_Per_100K": 2889584
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "NC",
+    "Admin_Per_100K": 2977911
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "ND",
+    "Admin_Per_100K": 2763852
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "NE",
+    "Admin_Per_100K": 3207818
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "NH",
+    "Admin_Per_100K": 3726956
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "NJ",
+    "Admin_Per_100K": 3728560
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "NM",
+    "Admin_Per_100K": 378344
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "NV",
+    "Admin_Per_100K": 3106885
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "NY",
+    "Admin_Per_100K": 3769258
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "OH",
+    "Admin_Per_100K": 3010898
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "OK",
+    "Admin_Per_100K": 2845460
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "OR",
+    "Admin_Per_100K": 3563363
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "PA",
+    "Admin_Per_100K": 3629102
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "SC",
+    "Admin_Per_100K": 2769452
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "SD",
+    "Admin_Per_100K": 3067067
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "TN",
+    "Admin_Per_100K": 2732165
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "TX",
+    "Admin_Per_100K": 3075629
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "UT",
+    "Admin_Per_100K": 3014535
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "VA",
+    "Admin_Per_100K": 3617225
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "VT",
+    "Admin_Per_100K": 4320061
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "WA",
+    "Admin_Per_100K": 3760773
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "WI",
+    "Admin_Per_100K": 3358349
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "WV",
+    "Admin_Per_100K": 2592859
+  },
+  {
+    "Month": 8,
+    "Name": "Aug",
+    "Location": "WY",
+    "Admin_Per_100K": 2467728
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "AK",
+    "Admin_Per_100K": 3189970
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "AL",
+    "Admin_Per_100K": 2798614
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "AR",
+    "Admin_Per_100K": 2906506
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "AZ",
+    "Admin_Per_100K": 3299687
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "CA",
+    "Admin_Per_100K": 3749450
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "CO",
+    "Admin_Per_100K": 3649594
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "CT",
+    "Admin_Per_100K": 4148933
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "DE",
+    "Admin_Per_100K": 3627415
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "FL",
+    "Admin_Per_100K": 3621744
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "GA",
+    "Admin_Per_100K": 2901488
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "GU",
+    "Admin_Per_100K": 4070835
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "HI",
+    "Admin_Per_100K": 3882020
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "IA",
+    "Admin_Per_100K": 3213883
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "ID",
+    "Admin_Per_100K": 2540701
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "IL",
+    "Admin_Per_100K": 3550325
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "IN",
+    "Admin_Per_100K": 2932822
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "KS",
+    "Admin_Per_100K": 3094706
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "KY",
+    "Admin_Per_100K": 3191534
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "LA",
+    "Admin_Per_100K": 2821101
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "MA",
+    "Admin_Per_100K": 4195218
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "MD",
+    "Admin_Per_100K": 3866286
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "ME",
+    "Admin_Per_100K": 3978387
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "MI",
+    "Admin_Per_100K": 3123271
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "MN",
+    "Admin_Per_100K": 3472493
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "MO",
+    "Admin_Per_100K": 2995836
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "MS",
+    "Admin_Per_100K": 2683787
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "MT",
+    "Admin_Per_100K": 2966849
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "NC",
+    "Admin_Per_100K": 3120621
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "ND",
+    "Admin_Per_100K": 2839072
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "NE",
+    "Admin_Per_100K": 3285455
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "NH",
+    "Admin_Per_100K": 3795765
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "NJ",
+    "Admin_Per_100K": 3814593
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "NM",
+    "Admin_Per_100K": 3888237
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "NV",
+    "Admin_Per_100K": 3221012
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "NY",
+    "Admin_Per_100K": 3882968
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "OH",
+    "Admin_Per_100K": 30443774
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "OK",
+    "Admin_Per_100K": 3036024
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "OR",
+    "Admin_Per_100K": 3634361
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "PA",
+    "Admin_Per_100K": 3706520
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "SC",
+    "Admin_Per_100K": 2944310
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "SD",
+    "Admin_Per_100K": 3154161
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "TN",
+    "Admin_Per_100K": 2904282
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "TX",
+    "Admin_Per_100K": 3246555
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "UT",
+    "Admin_Per_100K": 3123735
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "VA",
+    "Admin_Per_100K": 3714178
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "VT",
+    "Admin_Per_100K": 4259929
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "WA",
+    "Admin_Per_100K": 3807125
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "WI",
+    "Admin_Per_100K": 3420406
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "WV",
+    "Admin_Per_100K": 2562343
+  },
+  {
+    "Month": 9,
+    "Name": "Sep",
+    "Location": "WY",
+    "Admin_Per_100K": 2606007
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "AK",
+    "Admin_Per_100K": 3624404
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "AL",
+    "Admin_Per_100K": 3048245
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "AR",
+    "Admin_Per_100K": 3219608
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "AZ",
+    "Admin_Per_100K": 3622623
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "CA",
+    "Admin_Per_100K": 4112246
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "CO",
+    "Admin_Per_100K": 4004155
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "CT",
+    "Admin_Per_100K": 4538581
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "DE",
+    "Admin_Per_100K": 3989288
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "FL",
+    "Admin_Per_100K": 3997698
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "GA",
+    "Admin_Per_100K": 3230546
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "GU",
+    "Admin_Per_100K": 4596194
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "HI",
+    "Admin_Per_100K": 4227243
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "IA",
+    "Admin_Per_100K": 3519235
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "ID",
+    "Admin_Per_100K": 2848217
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "IL",
+    "Admin_Per_100K": 3834589
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "IN",
+    "Admin_Per_100K": 3218445
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "KS",
+    "Admin_Per_100K": 3416705
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "KY",
+    "Admin_Per_100K": 3540052
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "LA",
+    "Admin_Per_100K": 3138894
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "MA",
+    "Admin_Per_100K": 4543904
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "MD",
+    "Admin_Per_100K": 4228433
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "ME",
+    "Admin_Per_100K": 4355015
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "MI",
+    "Admin_Per_100K": 3432651
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "MN",
+    "Admin_Per_100K": 3810484
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "MO",
+    "Admin_Per_100K": 3308122
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "MS",
+    "Admin_Per_100K": 3004830
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "MT",
+    "Admin_Per_100K": 3303727
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "NC",
+    "Admin_Per_100K": 3507300
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "ND",
+    "Admin_Per_100K": 3165283
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "NE",
+    "Admin_Per_100K": 3608954
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "NH",
+    "Admin_Per_100K": 4204430
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "NJ",
+    "Admin_Per_100K": 4157645
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "NM",
+    "Admin_Per_100K": 4225915
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "NV",
+    "Admin_Per_100K": 3542169
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "NY",
+    "Admin_Per_100K": 4262825
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "OH",
+    "Admin_Per_100K": 3323565
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "OK",
+    "Admin_Per_100K": 3387453
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "OR",
+    "Admin_Per_100K": 3993197
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "PA",
+    "Admin_Per_100K": 4090050
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "SC",
+    "Admin_Per_100K": 3311773
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "SD",
+    "Admin_Per_100K": 3474542
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "TN",
+    "Admin_Per_100K": 3256226
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "TX",
+    "Admin_Per_100K": 3573997
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "UT",
+    "Admin_Per_100K": 3452038
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "VA",
+    "Admin_Per_100K": 4107470
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "VT",
+    "Admin_Per_100K": 4654361
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "WA",
+    "Admin_Per_100K": 4052444
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "WI",
+    "Admin_Per_100K": 3763973
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "WV",
+    "Admin_Per_100K": 2726576
+  },
+  {
+    "Month": 10,
+    "Name": "Oct",
+    "Location": "WY",
+    "Admin_Per_100K": 2922671
+  }
+]
