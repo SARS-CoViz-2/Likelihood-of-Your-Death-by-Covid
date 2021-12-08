@@ -22,7 +22,7 @@ let data = [{
         [0.8, 'rgb(117,107,177)'], [1, 'rgb(84,39,143)']
     ],
     colorbar: {
-        title: 'Number of vaccines Administers per 100k',
+        title: 'Number of vaccines<br>Administers per 100k',
         thickness: 0.2
     },
     marker: {
@@ -41,7 +41,7 @@ let layout = {
         lakecolor: 'rgb(255,255,255)'
     },
     height: 450,
-    width: 1400,
+    width: 1000,
 };
 
 function VaccinUS() {
