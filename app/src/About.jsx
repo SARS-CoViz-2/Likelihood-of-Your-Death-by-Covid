@@ -32,9 +32,7 @@ function About() {
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon name='mail' />
-                                <a href="nalcan24@hawaii.edu">
-                                    nalcan24@hawaii.edu
-                                </a>
+                                nalcan24@hawaii.edu
                             </Card.Content>
                         </Card>
                         <Card>
@@ -48,9 +46,7 @@ function About() {
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon name='mail' />
-                                <a href="akam476@hawaii.edu">
-                                    akam476@hawaii.edu
-                                </a>
+                                akam476@hawaii.edu
                             </Card.Content>
                         </Card>
                         <Card>
