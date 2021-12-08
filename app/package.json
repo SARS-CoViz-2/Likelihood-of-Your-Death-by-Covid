@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SARS-CoViz-2.github.io/Likelihood-of-Your-Death-by-Covid/app",
+  "homepage": "https://sars-coviz-2.github.io/Likelihood-of-Your-Death-by-Covid/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
