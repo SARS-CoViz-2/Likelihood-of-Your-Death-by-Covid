@@ -9,6 +9,52 @@ import { sex_data } from './data/sex_data';
 import { vax_data } from './data/vax_data';
 import './style/style.css';
 
+const graph = require('./data/json/2019OddsOfDying.json');
+
+function unpack(rows, key) {
+  return rows.map((row) => { return row[key]; });
+}
+
+let layout1 = {
+  xaxis: {
+    showgrid: false,
+    showline: true,
+    linecolor: 'rgb(102, 102, 102)',
+    title: "Percentage Odds of Dying",
+    titlefont: {
+      font: {
+        color: 'rgb(204, 204, 204)'
+      }
+    },
+    tickfont: {
+      font: {
+        color: 'rgb(102, 102, 102)'
+      }
+    },
+    autotick: false,
+    dtick: 10,
+    ticks: 'outside',
+    tickcolor: 'rgb(102, 102, 102)'
+  },
+  margin: {
+    l: 220,
+    r: 40,
+    b: 50,
+    t: 0,
+  },
+  legend: {
+    font: {
+      size: 10,
+    },
+    yanchor: 'middle',
+    xanchor: 'right'
+  },
+  width: 1100,
+  height: 600,
+  hovermode: 'closest'
+};
+
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -121,8 +167,8 @@ class App extends React.Component {
                 style={{ marginRight: '17em' }}
               />
               {((this.state.data[1].value - 1) * 100) > 0 ?
-                <p style={{textAlign: "center"}}>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% more likely to die of Covid-19</p> :
-                <p style={{textAlign: "center"}}>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% less likely to die of Covid-19</p>}
+                <p style={{ textAlign: "center" }}>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% more likely to die of Covid-19</p> :
+                <p style={{ textAlign: "center" }}>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% less likely to die of Covid-19</p>}
             </Grid.Column>
             <Divider vertical />
             <Grid.Column>
@@ -147,6 +193,28 @@ class App extends React.Component {
 
             </Grid.Column>
           </Grid>
+          <Header as="h1" textAlign="center">Conparisons to Other Odds of Dying in 2019</Header>
+          <Plot
+            data={[{
+              type: 'scatter',
+              x: (unpack(graph, "Percent Risk")).concat(1.6 * (this.state.data[1].value)),
+              y: (unpack(graph, "Cause of Death")).concat("Your Odds of Dying to Covid-19"),
+              mode: 'markers',
+              name: 'Your Odds of Dying from Covid-19',
+              marker: {
+                color: 'rgba(156, 165, 196, 0.95)',
+                line: {
+                  color: 'rgba(156, 165, 196, 1.0)',
+                  width: 1,
+                },
+                symbol: 'circle',
+                size: 16
+              },
+              symbol: 'circle',
+              size: 16
+            }]}
+            layout={layout1}
+          />
         </Segment>
         <br />
 

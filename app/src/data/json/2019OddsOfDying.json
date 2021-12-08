@@ -20,6 +20,11 @@
     "Percent Risk": 3.703703704
   },
   {
+    "Cause of Death": "Covid-19",
+    "Odds of Dying": "83 in 5000",
+    "Percent Risk": 1.66
+  },
+  {
     "Cause of Death": "Suicide",
     "Odds of Dying": "1 in 88",
     "Percent Risk": 1.136363636
@@ -83,50 +88,5 @@
     "Cause of Death": "Accidental gun discharge",
     "Odds of Dying": "1 in 8,571",
     "Percent Risk": 0.01166725
-  },
-  {
-    "Cause of Death": "Electrocution, radiation, extreme temperatures, and pressure",
-    "Odds of Dying": "1 in 13,394",
-    "Percent Risk": 0.00746603
-  },
-  {
-    "Cause of Death": "Sharp objects",
-    "Odds of Dying": "1 in 29,334",
-    "Percent Risk": 0.003409013
-  },
-  {
-    "Cause of Death": "Cataclysmic storm",
-    "Odds of Dying": "1 in 58,669",
-    "Percent Risk": 0.001704478
-  },
-  {
-    "Cause of Death": "Hornet, wasp, and bee stings",
-    "Odds of Dying": "1 in 59,507",
-    "Percent Risk": 0.001680475
-  },
-  {
-    "Cause of Death": "Hot surfaces and substances",
-    "Odds of Dying": "1 in 63,113",
-    "Percent Risk": 0.00158446
-  },
-  {
-    "Cause of Death": "Dog attack",
-    "Odds of Dying": "1 in 86,781",
-    "Percent Risk": 0.001152326
-  },
-  {
-    "Cause of Death": "Lightning",
-    "Odds of Dying": "1 in 138,849",
-    "Percent Risk": 0.000720207
-  },
-  {
-    "Cause of Death": "Railway passenger",
-    "Odds of Dying": "Too few deaths in 2019 to calculate odds",
-    "Percent Risk": 0
-  },
-  {
-    "Cause of Death": "Passenger on an airplane",
-    "Odds of Dying": "Too few deaths in 2019 to calculate odds",
-    "Percent Risk": 0
   }
 ]
