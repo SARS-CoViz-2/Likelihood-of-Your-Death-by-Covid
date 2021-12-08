@@ -38,7 +38,10 @@ function filter_and_unpack(rows, key, date) {
         text: frames[0].data[0].locations,
         zauto: false,
         zmin: 90000,
-        zmax: 6000000
+        zmax: 6000000,
+        colorbar: {
+          title: 'Doses Given per 100K',
+      },
   
   }];
   let layout = {
