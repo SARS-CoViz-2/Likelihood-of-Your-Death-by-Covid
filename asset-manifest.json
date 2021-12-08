@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Likelihood-of-Your-Death-by-Covid/static/css/main.ced54e82.chunk.css",
-    "main.js": "/Likelihood-of-Your-Death-by-Covid/static/js/main.4cb8f02d.chunk.js",
-    "main.js.map": "/Likelihood-of-Your-Death-by-Covid/static/js/main.4cb8f02d.chunk.js.map",
+    "main.js": "/Likelihood-of-Your-Death-by-Covid/static/js/main.5e868e0b.chunk.js",
+    "main.js.map": "/Likelihood-of-Your-Death-by-Covid/static/js/main.5e868e0b.chunk.js.map",
     "runtime-main.js": "/Likelihood-of-Your-Death-by-Covid/static/js/runtime-main.911d0462.js",
     "runtime-main.js.map": "/Likelihood-of-Your-Death-by-Covid/static/js/runtime-main.911d0462.js.map",
     "static/css/2.357b3c91.chunk.css": "/Likelihood-of-Your-Death-by-Covid/static/css/2.357b3c91.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.357b3c91.chunk.css",
     "static/js/2.8ce1250a.chunk.js",
     "static/css/main.ced54e82.chunk.css",
-    "static/js/main.4cb8f02d.chunk.js"
+    "static/js/main.5e868e0b.chunk.js"
   ]
 }
