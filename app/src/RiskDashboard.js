@@ -103,7 +103,7 @@ class App extends React.Component {
       <div>
         <Header as="h1" textAlign="center" id="headerTitle">Risk Calculator</Header>
         <Segment>
-          <Grid columns={2} stackable textAlign='center'>
+          <Grid columns={2} stackable textAlign='left'>
           <Grid.Column>
             <Plot centered id="myRisk"
               data={this.state.data}
@@ -129,7 +129,12 @@ class App extends React.Component {
                   <Dropdown label="vaccination" fluid selection options={options.vaccination} placeholder='Vaccination Status' value={value} onChange={this.handleVax}/>
                 </Form.Group>
               </Form>
-              <p>Field info:</p>
+              <Divider />
+              <p textAlign='left'>Field info:</p>
+              <p textAlign='left'>Sex: Your biological sex as determined by your sex chromosomes, separate from your gender identity. We included an option people with non-standard sex chromosome configurations, but case data (and general care) for these individuals are not as reliable as the others.</p>
+              <p textAlign='left'>Age: The number of years that you have existed after exiting your mother. Age range for each group was determined by the CDC.</p>
+              <p textAlign='left'>Ethnicity: Self reported ethnic background as (very) reductively defined in the US Census as "race". These classifications were never able capture accurate ethnic or cultural backgrounds due to them being based on arbitrary categories imagined by their creators. For example, the definition of "White" stretches to include people from the Middle East (meaning Jesus), despite not referring to them in any other context.</p>
+              <p textAlign='left'>Vaccination Status: Whether or not you are completely vaccinated, not including boosters. Data for partial vaccinations and boosters are not available.</p>
             </Grid.Row>
             
             </Grid.Column>
