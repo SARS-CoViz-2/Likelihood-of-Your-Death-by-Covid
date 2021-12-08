@@ -34,13 +34,17 @@ class App extends React.Component {
               {type: "indicator",
               mode: "delta+gauge",
               colorscale: "RdYlGn",
-              delta: { reference: 1, relative: true, valueformat: ".0f" },
+              delta: { reference: 1, relative: true, valueformat: ".2f", 
+                decreasing: { color: "green" },
+                increasing: { color: "red" } },
               value: 1,
               gauge: { axis: { range: [0, 2] } }
               }
             ]
           }
-        }
+        },
+        width: 500,   
+        height: 500,     
       },
       sex: {value:"", pop: 0, cases: 0, deaths: 0, dc_ratio: 0},
       age: {value:"", pop: 0, cases:0, deaths: 0, dc_ratio: 0},
@@ -107,8 +111,10 @@ class App extends React.Component {
               frames={this.state.frames}
               config={this.state.config}
               onInitialized={(figure) => this.setState(figure)}
-              onUpdate={(figure) => this.setState(figure)}
+              onUpdate={(figure) => this.setState(figure)} 
+              style={{ marginRight: '17em' }}
             />
+            {((this.state.data[1].value - 1) * 100) > 0 ? <p>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% more likely to die of Covid-19</p> : <p>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% less likely to die of Covid-19</p>}            
             </Grid.Column>
             <Divider vertical />
             <Grid.Column>
