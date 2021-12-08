@@ -1,0 +1,132 @@
+[
+  {
+    "Cause of Death": "Heart disease",
+    "Odds of Dying": "1 in 6",
+    "Percent Risk": 16.66666667
+  },
+  {
+    "Cause of Death": "Cancer",
+    "Odds of Dying": "1 in 7",
+    "Percent Risk": 14.28571429
+  },
+  {
+    "Cause of Death": "All preventable causes of death",
+    "Odds of Dying": "1 in 24",
+    "Percent Risk": 4.166666667
+  },
+  {
+    "Cause of Death": "Chronic lower respiratory disease",
+    "Odds of Dying": "1 in 27",
+    "Percent Risk": 3.703703704
+  },
+  {
+    "Cause of Death": "Suicide",
+    "Odds of Dying": "1 in 88",
+    "Percent Risk": 1.136363636
+  },
+  {
+    "Cause of Death": "Opioid overdose",
+    "Odds of Dying": "1 in 92",
+    "Percent Risk": 1.086956522
+  },
+  {
+    "Cause of Death": "Fall",
+    "Odds of Dying": "1 in 106",
+    "Percent Risk": 0.943396226
+  },
+  {
+    "Cause of Death": "Motor-vehicle crash",
+    "Odds of Dying": "1 in 107",
+    "Percent Risk": 0.934579439
+  },
+  {
+    "Cause of Death": "Gun assault",
+    "Odds of Dying": "1 in 289",
+    "Percent Risk": 0.346020761
+  },
+  {
+    "Cause of Death": "Pedestrian incident",
+    "Odds of Dying": "1 in 543",
+    "Percent Risk": 0.184162063
+  },
+  {
+    "Cause of Death": "Motorcyclist",
+    "Odds of Dying": "1 in 899",
+    "Percent Risk": 0.111234705
+  },
+  {
+    "Cause of Death": "Drowning",
+    "Odds of Dying": "1 in 1,128",
+    "Percent Risk": 0.088652482
+  },
+  {
+    "Cause of Death": "Fire or smoke",
+    "Odds of Dying": "1 in 1,547",
+    "Percent Risk": 0.064641241
+  },
+  {
+    "Cause of Death": "Choking on food",
+    "Odds of Dying": "1 in 2,535",
+    "Percent Risk": 0.039447732
+  },
+  {
+    "Cause of Death": "Bicyclist",
+    "Odds of Dying": "1 in 3,825",
+    "Percent Risk": 0.026143791
+  },
+  {
+    "Cause of Death": "Sunstroke",
+    "Odds of Dying": "1 in 8,248",
+    "Percent Risk": 0.012124151
+  },
+  {
+    "Cause of Death": "Accidental gun discharge",
+    "Odds of Dying": "1 in 8,571",
+    "Percent Risk": 0.01166725
+  },
+  {
+    "Cause of Death": "Electrocution, radiation, extreme temperatures, and pressure",
+    "Odds of Dying": "1 in 13,394",
+    "Percent Risk": 0.00746603
+  },
+  {
+    "Cause of Death": "Sharp objects",
+    "Odds of Dying": "1 in 29,334",
+    "Percent Risk": 0.003409013
+  },
+  {
+    "Cause of Death": "Cataclysmic storm",
+    "Odds of Dying": "1 in 58,669",
+    "Percent Risk": 0.001704478
+  },
+  {
+    "Cause of Death": "Hornet, wasp, and bee stings",
+    "Odds of Dying": "1 in 59,507",
+    "Percent Risk": 0.001680475
+  },
+  {
+    "Cause of Death": "Hot surfaces and substances",
+    "Odds of Dying": "1 in 63,113",
+    "Percent Risk": 0.00158446
+  },
+  {
+    "Cause of Death": "Dog attack",
+    "Odds of Dying": "1 in 86,781",
+    "Percent Risk": 0.001152326
+  },
+  {
+    "Cause of Death": "Lightning",
+    "Odds of Dying": "1 in 138,849",
+    "Percent Risk": 0.000720207
+  },
+  {
+    "Cause of Death": "Railway passenger",
+    "Odds of Dying": "Too few deaths in 2019 to calculate odds",
+    "Percent Risk": 0
+  },
+  {
+    "Cause of Death": "Passenger on an airplane",
+    "Odds of Dying": "Too few deaths in 2019 to calculate odds",
+    "Percent Risk": 0
+  }
+]
