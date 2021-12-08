@@ -27,71 +27,77 @@ class App extends React.Component {
         value: 1,
         domain: { row: 1, column: 0 }
       }],
-      layout: { grid: { rows: 2, columns: 1, pattern: "independent" }, frames: [], config: {},
-        template:{
+      layout: {
+        grid: { rows: 2, columns: 1, pattern: "independent" }, frames: [], config: {},
+        template: {
           data: {
-            indicator: [  
-              {type: "indicator",
-              mode: "delta+gauge",
-              colorscale: "RdYlGn",
-              delta: { reference: 1, relative: true, valueformat: ".2f", 
-                decreasing: { color: "green" },
-                increasing: { color: "red" } },
-              value: 1,
-              gauge: { axis: { range: [0, 2] } }
+            indicator: [
+              {
+                type: "indicator",
+                mode: "delta+gauge",
+                colorscale: "RdYlGn",
+                delta: {
+                  reference: 1, relative: true, valueformat: ".2f",
+                  decreasing: { color: "green" },
+                  increasing: { color: "red" }
+                },
+                value: 1,
+                gauge: { axis: { range: [0, 2] } }
               }
             ]
           }
         },
-        width: 500,   
-        height: 500,     
+        width: 500,
+        height: 500,
       },
-      sex: {value:"", pop: 0, cases: 0, deaths: 0, dc_ratio: 0},
-      age: {value:"", pop: 0, cases:0, deaths: 0, dc_ratio: 0},
-      ethnicity: {value:"", pop: 0, cases:0, deaths: 0, dc_ratio: 0},
-      state: {value:"", pop: 0, cases:0, deaths: 0, dc_ratio: 0},
-      county: {value:"", pop: 0, cases:0, deaths: 0, dc_ratio: 0},
-      vaccination: {value:"", pop:0, cases:0, deaths: 0, dc_ratio: 0},
-      
+      sex: { value: "", pop: 0, cases: 0, deaths: 0, dc_ratio: 0 },
+      age: { value: "", pop: 0, cases: 0, deaths: 0, dc_ratio: 0 },
+      ethnicity: { value: "", pop: 0, cases: 0, deaths: 0, dc_ratio: 0 },
+      state: { value: "", pop: 0, cases: 0, deaths: 0, dc_ratio: 0 },
+      county: { value: "", pop: 0, cases: 0, deaths: 0, dc_ratio: 0 },
+      vaccination: { value: "", pop: 0, cases: 0, deaths: 0, dc_ratio: 0 },
+
     }
-      
+
   }
-  
+
   calc_prob = () => {
-    
-    this.setState({data: [{
-      type: "indicator",
-      title: { text: "Infection Risk" },
-      value: _.reduce([this.state.sex, this.state.age, this.state.ethnicity, this.state.state, this.state.county, this.state.vaccination], (memo, o) => (o.cases > 0 ? memo * o.cases: memo), 1),
-      domain: { row: 0, column: 0 }
-    },
-    {
-      type: "indicator",
-      title: { text: "Death Risk" },
-      value: _.reduce([this.state.sex, this.state.age, this.state.ethnicity, this.state.state, this.state.county, this.state.vaccination], (memo, o) => (o.deaths > 0 ? memo * o.deaths: memo), 1),
-      domain: { row: 1, column: 0 }
-    }]});
+
+    this.setState({
+      data: [{
+        type: "indicator",
+        title: { text: "Infection Risk" },
+        value: _.reduce([this.state.sex, this.state.age, this.state.ethnicity, this.state.state, this.state.county, this.state.vaccination], (memo, o) => (o.cases > 0 ? memo * o.cases : memo), 1),
+        domain: { row: 0, column: 0 }
+      },
+      {
+        type: "indicator",
+        title: { text: "Death Risk" },
+        value: _.reduce([this.state.sex, this.state.age, this.state.ethnicity, this.state.state, this.state.county, this.state.vaccination], (memo, o) => (o.deaths > 0 ? memo * o.deaths : memo), 1),
+        domain: { row: 1, column: 0 }
+      }]
+    });
   }
-  
+
   _handleSex = (e, { value }) => {
-    this.setState({sex: _.find(sex_data, (ls) => ls.value == value) }, function(){
+    this.setState({ sex: _.find(sex_data, (ls) => ls.value == value) }, function () {
       this.calc_prob();
     });
   }
 
   handleAge = (e, { value }) => {
-    this.setState({age: _.find(age_data, (ls) => ls.value == value) }, function(){
+    this.setState({ age: _.find(age_data, (ls) => ls.value == value) }, function () {
       this.calc_prob();
     });
   }
   handleEthnicity = (e, { value }) => {
-    this.setState({ethnicity: _.find(ethnicity_data, (ls) => ls.value == value) }, function(){
+    this.setState({ ethnicity: _.find(ethnicity_data, (ls) => ls.value == value) }, function () {
       this.calc_prob();
     });
   }
 
   handleVax = (e, { value }) => {
-    this.setState({vaccination: _.find(vax_data, (ls) => ls.value == value) }, function(){
+    this.setState({ vaccination: _.find(vax_data, (ls) => ls.value == value) }, function () {
       this.calc_prob();
     });
   }
@@ -104,39 +110,41 @@ class App extends React.Component {
         <Header as="h1" textAlign="center" id="headerTitle">Risk Calculator</Header>
         <Segment>
           <Grid columns={2} stackable textAlign='left'>
-          <Grid.Column>
-            <Plot centered id="myRisk"
-              data={this.state.data}
-              layout={this.state.layout}
-              frames={this.state.frames}
-              config={this.state.config}
-              onInitialized={(figure) => this.setState(figure)}
-              onUpdate={(figure) => this.setState(figure)} 
-              style={{ marginRight: '17em' }}
-            />
-            {((this.state.data[1].value - 1) * 100) > 0 ? <p>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% more likely to die of Covid-19</p> : <p>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% less likely to die of Covid-19</p>}            
+            <Grid.Column>
+              <Plot centered id="myRisk"
+                data={this.state.data}
+                layout={this.state.layout}
+                frames={this.state.frames}
+                config={this.state.config}
+                onInitialized={(figure) => this.setState(figure)}
+                onUpdate={(figure) => this.setState(figure)}
+                style={{ marginRight: '17em' }}
+              />
+              {((this.state.data[1].value - 1) * 100) > 0 ?
+                <p style={{textAlign: "center"}}>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% more likely to die of Covid-19</p> :
+                <p style={{textAlign: "center"}}>You are {(Math.abs((this.state.data[1].value - 1) * 100)).toFixed(2)}% less likely to die of Covid-19</p>}
             </Grid.Column>
             <Divider vertical />
             <Grid.Column>
-            <Grid.Row verticalAlign='middle'>
-              <Form>
-                <Form.Group widths='equal'>
-                  <Dropdown label="sex" fluid selection options={options.sex} placeholder='Sex' value={value} onChange={this._handleSex}/>
-                  <Dropdown label="age" fluid selection options={options.age} placeholder='Age Range' value={value} onChange={this.handleAge}/>
-                  <Dropdown label="ethnicity" fluid selection options={options.ethnicity} placeholder='Ethnicity' value={value} onChange={this.handleEthnicity}/>
-                </Form.Group>
-                <Form.Group widths='equal'>
-                  <Dropdown label="vaccination" fluid selection options={options.vaccination} placeholder='Vaccination Status' value={value} onChange={this.handleVax}/>
-                </Form.Group>
-              </Form>
-              <Divider />
-              <p textAlign='left'>Field info:</p>
-              <p textAlign='left'>Sex: Your biological sex as determined by your sex chromosomes, separate from your gender identity. We included an option people with non-standard sex chromosome configurations, but case data (and general care) for these individuals are not as reliable as the others.</p>
-              <p textAlign='left'>Age: The number of years that you have existed after exiting your mother. Age range for each group was determined by the CDC.</p>
-              <p textAlign='left'>Ethnicity: Self reported ethnic background as (very) reductively defined in the US Census as "race". These classifications were never able capture accurate ethnic or cultural backgrounds due to them being based on arbitrary categories imagined by their creators. For example, the definition of "White" stretches to include people from the Middle East (meaning Jesus), despite not referring to them in any other context.</p>
-              <p textAlign='left'>Vaccination Status: Whether or not you are completely vaccinated, not including boosters. Data for partial vaccinations and boosters are not available.</p>
-            </Grid.Row>
-            
+              <Grid.Row verticalAlign='middle'>
+                <Form>
+                  <Form.Group widths='equal'>
+                    <Dropdown label="sex" fluid selection options={options.sex} placeholder='Sex' value={value} onChange={this._handleSex} />
+                    <Dropdown label="age" fluid selection options={options.age} placeholder='Age Range' value={value} onChange={this.handleAge} />
+                    <Dropdown label="ethnicity" fluid selection options={options.ethnicity} placeholder='Ethnicity' value={value} onChange={this.handleEthnicity} />
+                  </Form.Group>
+                  <Form.Group widths='equal'>
+                    <Dropdown label="vaccination" fluid selection options={options.vaccination} placeholder='Vaccination Status' value={value} onChange={this.handleVax} />
+                  </Form.Group>
+                </Form>
+                <Divider />
+                <p textAlign='left'>Field info:</p>
+                <p textAlign='left'>Sex: Your biological sex as determined by your sex chromosomes, separate from your gender identity. We included an option people with non-standard sex chromosome configurations, but case data (and general care) for these individuals are not as reliable as the others.</p>
+                <p textAlign='left'>Age: The number of years that you have existed after exiting your mother. Age range for each group was determined by the CDC.</p>
+                <p textAlign='left'>Ethnicity: Self reported ethnic background as (very) reductively defined in the US Census as "race". These classifications were never able capture accurate ethnic or cultural backgrounds due to them being based on arbitrary categories imagined by their creators. For example, the definition of "White" stretches to include people from the Middle East (meaning Jesus), despite not referring to them in any other context.</p>
+                <p textAlign='left'>Vaccination Status: Whether or not you are completely vaccinated, not including boosters. Data for partial vaccinations and boosters are not available.</p>
+              </Grid.Row>
+
             </Grid.Column>
           </Grid>
         </Segment>
